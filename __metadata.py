@@ -7,30 +7,24 @@ import json
 import numpy as np
 import math
 from sklearn.cluster import KMeans
-import matplotlib.image as img
 import webcolors
 
 def main_colors(imgfile):
     numarray = np.array(imgfile.getdata(), np.uint8)
     if len(numarray.shape) == 2:
-        clusters = KMeans(n_clusters = 5)
+        clusters = KMeans(n_clusters = 2)
         clusters.fit(numarray)
         colors = []
         for i in range(0,2):
             color = '#%02x%02x%02x' % (
                 math.ceil(clusters.cluster_centers_[i][0]),
-                    math.ceil(clusters.cluster_centers_[i][1]),
+                    math.ceil(clusters.cluster_centers_[i][1]), 
                 math.ceil(clusters.cluster_centers_[i][2]))
             colors.append(color)
         return colors
     else:
         return ''
 
-
-df=pd.read_csv('images/pokemon.csv', sep=',',header=None, skiprows=1)
-df.replace(np.nan, "")
-id=0
-json_data = []
 def get_closest_color(rgb_triplet):
     min_colours = {}
     for key, name in webcolors.CSS21_HEX_TO_NAMES.items():
