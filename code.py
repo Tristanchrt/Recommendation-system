@@ -1,7 +1,16 @@
-# Download dataset on kaggle
-import kaggle
+import json
+import pandas as pd
+with open('images/metadata/metadata.json','r') as f:
+    data = json.loads(f.read())
+# df = pd.read_json('images/metadata/metadata.json')
 
-kaggle.api.authenticate()
-# assign directory
-directory="./"
-kaggle.api.dataset_download_files('vishalsubbiah/pokemon-images-and-types', path=directory, unzip=True)
+df = pd.json_normalize(
+    data, 
+    meta=[
+        ['properties', 'type1', 'types2'], 
+    ]
+)
+
+df.info()
+
+
