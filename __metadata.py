@@ -1,42 +1,58 @@
 import os
 from PIL import Image
+from PIL import ImageColor
 from PIL.ExifTags import TAGS
 import pandas as pd
 import json
 import numpy as np
 import math
 from sklearn.cluster import KMeans
+import webcolors
 
+def main_colors(imgfile):
+    numarray = np.array(imgfile.getdata(), np.uint8)
+    if len(numarray.shape) == 2:
+        clusters = KMeans(n_clusters = 2)
+        clusters.fit(numarray)
+        colors = []
+        for i in range(0,2):
+            color = '#%02x%02x%02x' % (
+                math.ceil(clusters.cluster_centers_[i][0]),
+                    math.ceil(clusters.cluster_centers_[i][1]), 
+                math.ceil(clusters.cluster_centers_[i][2]))
+            colors.append(color)
+        return colors
+    else:
+        return ''
 
-def kmens_img(image, nb_color):
-    numarray = np.array(image.getdata(), np.uint8)
-    clusters = KMeans(n_clusters = nb_color)
-    clusters.fit(numarray)
-    npbins = np.arange(0, nb_color+1)
-    histogram = np.histogram(clusters.labels_, bins=npbins)
+def get_closest_color(rgb_triplet):
+    min_colours = {}
+    for key, name in webcolors.CSS21_HEX_TO_NAMES.items():
+        r_c, g_c, b_c = webcolors.hex_to_rgb(key)
+        rd = (r_c - rgb_triplet[0]) ** 2
+        gd = (g_c - rgb_triplet[1]) ** 2
+        bd = (b_c - rgb_triplet[2]) ** 2
+        min_colours[(rd + gd + bd)] = name
+    return min_colours[min(min_colours.keys())]
 
-    color_list = []
-
-    for i in range(nb_color):
-        colors = '#%02x%02x%02x' % ( math.ceil(clusters.cluster_centers_[i][0]), 
-                    math.ceil(clusters.cluster_centers_[i][1]),
-                    math.ceil(clusters.cluster_centers_[i][2]))
-        color_list.append(colors)
-
-    return sorted(histogram[0], reverse=True), color_list
-
-df=pd.read_csv('images/pokemon.csv', sep=',',header=None, skiprows=1)
+df = pd.read_csv('images/pokemon.csv', sep=',',header=None, skiprows=1)
 df.replace(np.nan, "")
-# print(df.values)
 json_data = []
 id = 0
-for filename in os.listdir("images/images/"):
+for filename in os.listdir("images/images/")[:5]:
     f = "images/images/" + filename
     image = Image.open(f)
+    image = image.resize((120,120))
     metadata = df.loc[df[0] == filename.split(".")[0]]
-    # print(image.getdata())
-    # histo, colors = kmens_img(image, 2)
+  
+    closest_name_list = []
     name = metadata[0].values[0]
+    main_colors_value = main_colors(image)
+    for i in range(len(main_colors_value)):
+        rgb_color = ImageColor.getcolor(main_colors_value[i], "RGB")
+        closest_name = get_closest_color(rgb_color)
+        closest_name_list.append(closest_name)  
+
     id+=1
     json_metadata = {
         "id" : id,
@@ -46,7 +62,8 @@ for filename in os.listdir("images/images/"):
             "type2" : metadata[2].replace(np.nan, "None").values[0]
         },
         "size" : image.size,
-        "colors" : '',
+        "colors" : main_colors_value,
+        "closet_colors": closest_name_list,
         "tags" : [],
         "path" : f 
     }
