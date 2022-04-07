@@ -4,7 +4,9 @@ import matplotlib.pyplot as plt
 import squarify
 with open('images/metadata/metadata.json','r') as f:
     data = json.loads(f.read())
-# df = pd.read_json('images/metadata/metadata.json')
+    dataFrame = pd.DataFrame(data)
+
+df = pd.read_json('images/metadata/metadata.json')
 
 df = pd.json_normalize(
     data,  
@@ -14,7 +16,6 @@ df = pd.json_normalize(
         'colors' 
     ]
 )
-
 
 ## Count by type
 grouped_df = df.groupby(['properties.type1'])['properties.type1']
@@ -28,8 +29,6 @@ for key, item in grouped_df:
 
 plt.bar(x,y )
 plt.show()
-
-
 
 ### Colors bar 
 count_by_colors = {}
@@ -53,3 +52,14 @@ df = pd.DataFrame({'presence':count_by_colors.values(), 'color':count_by_colors.
 squarify.plot(sizes=df['presence'], label=df['color'], alpha=.8 ,color=count_by_colors.keys())
 plt.axis('off')
 plt.show()
+import matplotlib.image as mpimg
+
+_, axs = plt.subplots(2, 5, figsize=(8, 8))
+axs = axs.flatten()
+for ax in axs:
+    image = list(dataFrame.sample()['path'].items())[0][1]
+    img = mpimg.imread(image)
+    ax.imshow(img)
+plt.show()
+
+
