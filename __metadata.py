@@ -39,7 +39,7 @@ df = pd.read_csv('images/pokemon.csv', sep=',',header=None, skiprows=1)
 df.replace(np.nan, "")
 json_data = []
 id = 0
-for filename in os.listdir("images/images/")[:5]:
+for filename in os.listdir("images/images/")[:10]:
     f = "images/images/" + filename
     image = Image.open(f)
     image = image.resize((120,120))
@@ -63,7 +63,7 @@ for filename in os.listdir("images/images/")[:5]:
         },
         "size" : image.size,
         "colors" : main_colors_value,
-        "closet_colors": closest_name_list,
+        "closest_colors": closest_name_list,
         "tags" : [],
         "path" : f 
     }
