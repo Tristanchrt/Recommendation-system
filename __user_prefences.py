@@ -17,7 +17,7 @@ for user_id in range(number_of_users):
         "favorites" : favorites_index,
         "dislikes" : dislike_index,
         "favorites_types" : list(set(tuple(el) for el in favorites_types)),
-        "^disliked_types" : list(set(tuple(el) for el in disliked_types)),
+        "disliked_types" : list(set(tuple(el) for el in disliked_types)),
     }
     users_preferences.append(user_metadata)
 with open("images/metadata/users_preferences.json", 'w+') as outfile:
