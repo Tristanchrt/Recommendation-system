@@ -2,12 +2,15 @@ import os
 from PIL import Image
 from PIL import ImageColor
 from PIL.ExifTags import TAGS
+from matplotlib import widgets
 import pandas as pd
 import json
 import numpy as np
 import math
 from sklearn.cluster import KMeans
 import webcolors
+import progressbar
+
 
 def main_colors(imgfile):
     numarray = np.array(imgfile.getdata(), np.uint8)
@@ -15,7 +18,7 @@ def main_colors(imgfile):
         clusters = KMeans(n_clusters = 2)
         clusters.fit(numarray)
         colors = []
-        for i in range(0,2):
+        for i in range(2):
             color = '#%02x%02x%02x' % (
                 math.ceil(clusters.cluster_centers_[i][0]),
                     math.ceil(clusters.cluster_centers_[i][1]), 
@@ -39,7 +42,12 @@ df = pd.read_csv('images/pokemon.csv', sep=',',header=None, skiprows=1)
 df.replace(np.nan, "")
 json_data = []
 id = 0
-for filename in os.listdir("images/images/")[:10]:
+total = len([name for name in os.listdir("images/images/")])
+bar = progressbar.ProgressBar(widgets=['Extraction : ', ' ',progressbar.Percentage(), progressbar.Bar(marker='#',left='[',right=']'),
+           ' '], maxval=total)
+bar.start()
+
+for filename in os.listdir("images/images/")[:200]:
     f = "images/images/" + filename
     image = Image.open(f)
     image = image.resize((120,120))
@@ -67,7 +75,8 @@ for filename in os.listdir("images/images/")[:10]:
         "tags" : [],
         "path" : f 
     }
-    # json_metadata = json.dumps(json_metadata)
+    bar.update(id)
     json_data.append(json_metadata)
+bar.finish()
 with open("images/metadata/metadata.json", 'w+') as outfile:
     outfile.write(json.dumps(json_data))
