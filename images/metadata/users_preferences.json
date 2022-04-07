@@ -2,293 +2,175 @@
     {
         "id": 1,
         "favorites": [
-            253,
-            638,
-            644,
-            434,
-            26,
-            49,
-            764,
-            249
+            242,
+            202,
+            631,
+            550,
+            220,
+            751,
+            660,
+            493
         ],
         "dislikes": [
-            107,
-            286,
-            259,
-            675,
-            101,
-            446,
-            331,
-            339
+            238,
+            178,
+            1,
+            677,
+            339,
+            647,
+            657,
+            58
         ],
         "favorites_types": [
             [
-                "Rock",
-                "None"
-            ],
-            [
-                "Psychic",
-                "None"
+                "Water",
+                "Ground"
             ],
             [
                 "Poison",
-                "None"
-            ],
-            [
-                "Grass",
-                "None"
-            ],
-            [
-                "Fairy",
-                "None"
-            ],
-            [
-                "Normal",
-                "Fighting"
-            ]
-        ],
-        "disliked_types": [
-            [
-                "Normal",
-                "Fairy"
-            ],
-            [
-                "Bug",
-                "Steel"
-            ],
-            [
-                "Normal",
-                "Flying"
+                "Dragon"
             ],
             [
                 "Fire",
                 "Fighting"
             ],
             [
-                "Water",
-                "Ice"
-            ],
-            [
                 "Grass",
-                "Steel"
+                "None"
             ],
             [
                 "Water",
-                "Dark"
+                "None"
+            ],
+            [
+                "Ice",
+                "None"
+            ],
+            [
+                "Electric",
+                "Fairy"
+            ],
+            [
+                "Psychic",
+                "Fairy"
+            ]
+        ],
+        "disliked_types": [
+            [
+                "Water",
+                "Ground"
+            ],
+            [
+                "Fighting",
+                "Psychic"
+            ],
+            [
+                "Psychic",
+                "None"
+            ],
+            [
+                "Steel",
+                "Ghost"
             ],
             [
                 "Normal",
                 "None"
+            ],
+            [
+                "Poison",
+                "Flying"
+            ],
+            [
+                "Bug",
+                "Poison"
+            ],
+            [
+                "Fire",
+                "Fighting"
             ]
+        ],
+        "colors": [
+            "black",
+            "gray",
+            "white",
+            "silver"
         ]
     },
     {
         "id": 2,
         "favorites": [
-            704,
-            690,
-            438,
-            189,
-            67,
-            638,
-            605,
-            792
-        ],
-        "dislikes": [
-            138,
-            530,
-            597,
-            419,
-            49,
-            333,
-            397,
-            416
-        ],
-        "favorites_types": [
-            [
-                "Grass",
-                "Poison"
-            ],
-            [
-                "Grass",
-                "None"
-            ],
-            [
-                "Normal",
-                "Flying"
-            ],
-            [
-                "Ice",
-                "Ghost"
-            ],
-            [
-                "Bug",
-                "Electric"
-            ],
-            [
-                "Ground",
-                "None"
-            ],
-            [
-                "Fairy",
-                "None"
-            ]
-        ],
-        "disliked_types": [
-            [
-                "Normal",
-                "Flying"
-            ],
-            [
-                "Ground",
-                "Flying"
-            ],
-            [
-                "Rock",
-                "Fairy"
-            ],
-            [
-                "Water",
-                "Psychic"
-            ],
-            [
-                "Poison",
-                "Water"
-            ],
-            [
-                "Ghost",
-                "Ground"
-            ],
-            [
-                "Electric",
-                "None"
-            ],
-            [
-                "Normal",
-                "Fighting"
-            ]
-        ]
-    },
-    {
-        "id": 3,
-        "favorites": [
-            547,
-            608,
-            143,
-            308,
-            446,
-            806,
-            440,
-            6
-        ],
-        "dislikes": [
-            319,
-            510,
             630,
-            708,
-            121,
-            153,
-            723,
-            98
+            618,
+            698,
+            764,
+            521,
+            640,
+            105,
+            193
+        ],
+        "dislikes": [
+            443,
+            267,
+            782,
+            306,
+            365,
+            798,
+            509,
+            88
         ],
         "favorites_types": [
             [
-                "Poison",
-                "None"
-            ],
-            [
-                "Dragon",
-                "Fire"
-            ],
-            [
-                "Bug",
-                "Flying"
-            ],
-            [
-                "Water",
-                "Rock"
-            ],
-            [
-                "Water",
-                "None"
-            ],
-            [
-                "Fairy",
-                "None"
-            ],
-            [
-                "Grass",
-                "Ice"
-            ],
-            [
                 "Normal",
-                "None"
-            ]
-        ],
-        "disliked_types": [
-            [
-                "Bug",
-                "Grass"
+                "Fairy"
             ],
             [
                 "Psychic",
                 "None"
             ],
             [
-                "Bug",
+                "Grass",
                 "None"
             ],
             [
-                "Bug",
+                "Dragon",
                 "Flying"
             ],
             [
-                "Water",
-                "None"
+                "Electric",
+                "Steel"
             ],
             [
                 "Normal",
                 "Ground"
             ],
             [
-                "Rock",
-                "Ground"
+                "Dragon",
+                "None"
+            ],
+            [
+                "Fire",
+                "Normal"
+            ]
+        ],
+        "disliked_types": [
+            [
+                "Normal",
+                "Flying"
+            ],
+            [
+                "Grass",
+                "Poison"
             ],
             [
                 "Bug",
                 "Electric"
-            ]
-        ]
-    },
-    {
-        "id": 4,
-        "favorites": [
-            714,
-            371,
-            539,
-            586,
-            717,
-            234,
-            167,
-            53
-        ],
-        "dislikes": [
-            115,
-            582,
-            750,
-            54,
-            424,
-            280,
-            4,
-            178
-        ],
-        "favorites_types": [
-            [
-                "Normal",
-                "Flying"
             ],
             [
-                "Ice",
+                "Bug",
+                "None"
+            ],
+            [
+                "Dark",
                 "Psychic"
             ],
             [
@@ -296,169 +178,224 @@
                 "None"
             ],
             [
-                "Fighting",
+                "Steel",
+                "Psychic"
+            ]
+        ],
+        "colors": [
+            "black",
+            "gray",
+            "white"
+        ]
+    },
+    {
+        "id": 3,
+        "favorites": [
+            84,
+            222,
+            383,
+            585,
+            395,
+            708,
+            572,
+            24
+        ],
+        "dislikes": [
+            376,
+            598,
+            552,
+            15,
+            773,
+            524,
+            733,
+            676
+        ],
+        "favorites_types": [
+            [
+                "Normal",
+                "Flying"
+            ],
+            [
+                "Psychic",
                 "None"
             ],
             [
-                "Grass",
+                "Normal",
                 "None"
+            ],
+            [
+                "Fire",
+                "None"
+            ],
+            [
+                "Rock",
+                "Bug"
+            ],
+            [
+                "Water",
+                "Ice"
+            ],
+            [
+                "Ice",
+                "Ground"
             ]
         ],
         "disliked_types": [
             [
-                "Rock",
-                "None"
-            ],
-            [
-                "Ghost",
-                "None"
-            ],
-            [
-                "Steel",
+                "Grass",
                 "Fairy"
             ],
             [
-                "Steel",
-                "Ghost"
-            ],
-            [
-                "Grass",
-                "None"
-            ],
-            [
-                "Electric",
-                "None"
+                "Dragon",
+                "Ground"
             ],
             [
                 "Rock",
                 "Water"
             ],
             [
+                "Ground",
+                "Dark"
+            ],
+            [
+                "Ice",
+                "Water"
+            ],
+            [
+                "Water",
+                "None"
+            ],
+            [
+                "Normal",
+                "Fighting"
+            ]
+        ],
+        "colors": [
+            "black",
+            "silver",
+            "white",
+            "gray"
+        ]
+    },
+    {
+        "id": 4,
+        "favorites": [
+            248,
+            519,
+            360,
+            53,
+            666,
+            745,
+            196,
+            374
+        ],
+        "dislikes": [
+            41,
+            21,
+            383,
+            294,
+            599,
+            787,
+            607,
+            309
+        ],
+        "favorites_types": [
+            [
+                "Dark",
+                "Dragon"
+            ],
+            [
+                "Water",
+                "Flying"
+            ],
+            [
+                "Bug",
+                "Fighting"
+            ],
+            [
                 "Normal",
                 "None"
+            ],
+            [
+                "Fire",
+                "None"
+            ],
+            [
+                "Water",
+                "None"
+            ],
+            [
+                "Grass",
+                "Flying"
             ]
+        ],
+        "disliked_types": [
+            [
+                "Electric",
+                "None"
+            ],
+            [
+                "Grass",
+                "None"
+            ],
+            [
+                "Bug",
+                "None"
+            ],
+            [
+                "Water",
+                "Flying"
+            ],
+            [
+                "Dark",
+                "Psychic"
+            ],
+            [
+                "Ice",
+                "None"
+            ],
+            [
+                "Water",
+                "Dragon"
+            ],
+            [
+                "Ice",
+                "Ground"
+            ]
+        ],
+        "colors": [
+            "silver",
+            "black",
+            "maroon",
+            "gray",
+            "white"
         ]
     },
     {
         "id": 5,
         "favorites": [
-            677,
-            39,
-            442,
-            334,
-            701,
-            807,
-            340,
-            428
+            303,
+            567,
+            180,
+            714,
+            138,
+            202,
+            329,
+            707
         ],
         "dislikes": [
-            255,
-            736,
-            546,
-            363,
-            289,
-            436,
-            427,
-            487
+            306,
+            476,
+            322,
+            207,
+            317,
+            697,
+            479,
+            743
         ],
         "favorites_types": [
-            [
-                "Water",
-                "Steel"
-            ],
-            [
-                "Poison",
-                "None"
-            ],
-            [
-                "Fire",
-                "Dark"
-            ],
-            [
-                "Rock",
-                "Fighting"
-            ],
-            [
-                "Fighting",
-                "Psychic"
-            ],
-            [
-                "Ghost",
-                "Ground"
-            ],
-            [
-                "Ghost",
-                "Poison"
-            ],
             [
                 "Normal",
-                "None"
-            ]
-        ],
-        "disliked_types": [
-            [
-                "Fire",
-                "None"
-            ],
-            [
-                "Bug",
-                "Flying"
-            ],
-            [
-                "Rock",
-                "Flying"
-            ],
-            [
-                "Dark",
-                "Fire"
-            ],
-            [
-                "Rock",
-                "Ground"
-            ],
-            [
-                "Water",
-                "Dark"
-            ],
-            [
-                "Fairy",
-                "None"
-            ]
-        ]
-    },
-    {
-        "id": 6,
-        "favorites": [
-            117,
-            422,
-            444,
-            274,
-            452,
-            788,
-            16,
-            22
-        ],
-        "dislikes": [
-            595,
-            319,
-            102,
-            424,
-            705,
-            369,
-            353,
-            75
-        ],
-        "favorites_types": [
-            [
-                "Bug",
-                "None"
-            ],
-            [
-                "Water",
-                "None"
-            ],
-            [
-                "Steel",
                 "Flying"
             ],
             [
@@ -466,7 +403,15 @@
                 "None"
             ],
             [
-                "Ghost",
+                "Fire",
+                "Ghost"
+            ],
+            [
+                "Rock",
+                "Poison"
+            ],
+            [
+                "Water",
                 "Dark"
             ],
             [
@@ -474,26 +419,97 @@
                 "Dragon"
             ],
             [
-                "Bug",
-                "Water"
+                "Ice",
+                "None"
             ],
             [
-                "Fairy",
+                "Steel",
                 "None"
             ]
         ],
         "disliked_types": [
             [
-                "Ghost",
-                "Fire"
+                "Bug",
+                "Grass"
             ],
             [
-                "Normal",
+                "Dragon",
                 "Flying"
             ],
             [
                 "Ghost",
                 "None"
+            ],
+            [
+                "Ghost",
+                "Grass"
+            ],
+            [
+                "Rock",
+                "Bug"
+            ],
+            [
+                "Water",
+                "None"
+            ],
+            [
+                "Ice",
+                "None"
+            ],
+            [
+                "Bug",
+                "Poison"
+            ]
+        ],
+        "colors": [
+            "black",
+            "gray",
+            "white",
+            "silver"
+        ]
+    },
+    {
+        "id": 6,
+        "favorites": [
+            584,
+            142,
+            499,
+            578,
+            471,
+            71,
+            67,
+            30
+        ],
+        "dislikes": [
+            328,
+            543,
+            238,
+            775,
+            745,
+            153,
+            639,
+            99
+        ],
+        "favorites_types": [
+            [
+                "Grass",
+                "Poison"
+            ],
+            [
+                "Poison",
+                "None"
+            ],
+            [
+                "Bug",
+                "None"
+            ],
+            [
+                "Dark",
+                "None"
+            ],
+            [
+                "Ground",
+                "Flying"
             ],
             [
                 "Water",
@@ -502,67 +518,214 @@
             [
                 "Ground",
                 "Rock"
-            ],
-            [
-                "Grass",
-                "None"
-            ],
-            [
-                "Water",
-                "Ground"
-            ],
-            [
-                "Normal",
-                "None"
             ]
-        ]
-    },
-    {
-        "id": 7,
-        "favorites": [
-            72,
-            474,
-            284,
-            321,
-            612,
-            415,
-            63,
-            37
         ],
-        "dislikes": [
-            587,
-            233,
-            270,
-            172,
-            362,
-            566,
-            775,
-            259
-        ],
-        "favorites_types": [
+        "disliked_types": [
             [
-                "Grass",
-                "Poison"
+                "Bug",
+                "Grass"
+            ],
+            [
+                "Electric",
+                "None"
             ],
             [
                 "Bug",
                 "None"
             ],
             [
-                "Fire",
-                "Psychic"
+                "Grass",
+                "None"
             ],
             [
-                "Psychic",
-                "Fairy"
+                "Normal",
+                "None"
+            ],
+            [
+                "Fire",
+                "None"
+            ],
+            [
+                "Bug",
+                "Poison"
+            ]
+        ],
+        "colors": [
+            "black",
+            "silver",
+            "gray"
+        ]
+    },
+    {
+        "id": 7,
+        "favorites": [
+            670,
+            301,
+            221,
+            220,
+            792,
+            793,
+            120,
+            334
+        ],
+        "dislikes": [
+            78,
+            133,
+            25,
+            535,
+            740,
+            563,
+            217,
+            9
+        ],
+        "favorites_types": [
+            [
+                "Rock",
+                "Water"
+            ],
+            [
+                "Water",
+                "Ground"
+            ],
+            [
+                "Bug",
+                "Rock"
+            ],
+            [
+                "Ghost",
+                "Poison"
+            ],
+            [
+                "Grass",
+                "None"
+            ],
+            [
+                "Fire",
+                "None"
+            ],
+            [
+                "Water",
+                "None"
+            ],
+            [
+                "Dark",
+                "Fire"
+            ]
+        ],
+        "disliked_types": [
+            [
+                "Fire",
+                "Flying"
+            ],
+            [
+                "Grass",
+                "None"
+            ],
+            [
+                "Normal",
+                "None"
+            ],
+            [
+                "Fire",
+                "None"
+            ],
+            [
+                "Bug",
+                "Poison"
+            ],
+            [
+                "Ice",
+                "Ground"
+            ],
+            [
+                "Fighting",
+                "None"
+            ]
+        ],
+        "colors": [
+            "silver",
+            "black",
+            "gray",
+            "white",
+            "orange"
+        ]
+    },
+    {
+        "id": 8,
+        "favorites": [
+            8,
+            482,
+            419,
+            178,
+            195,
+            101,
+            611,
+            612
+        ],
+        "dislikes": [
+            79,
+            194,
+            536,
+            444,
+            352,
+            581,
+            623,
+            475
+        ],
+        "favorites_types": [
+            [
+                "Normal",
+                "Flying"
+            ],
+            [
+                "Water",
+                "Ground"
+            ],
+            [
+                "Bug",
+                "Steel"
             ],
             [
                 "Steel",
                 "Ghost"
             ],
             [
+                "Electric",
+                "Flying"
+            ],
+            [
+                "Water",
+                "None"
+            ],
+            [
                 "Bug",
                 "Poison"
+            ],
+            [
+                "Fighting",
+                "None"
+            ]
+        ],
+        "disliked_types": [
+            [
+                "Water",
+                "Ground"
+            ],
+            [
+                "Normal",
+                "None"
+            ],
+            [
+                "Fairy",
+                "None"
+            ],
+            [
+                "Fire",
+                "None"
+            ],
+            [
+                "Ground",
+                "Dragon"
             ],
             [
                 "Ground",
@@ -570,307 +733,206 @@
             ],
             [
                 "Water",
-                "Ground"
+                "Dragon"
             ]
         ],
-        "disliked_types": [
-            [
-                "Grass",
-                "Dark"
-            ],
-            [
-                "Fire",
-                "None"
-            ],
-            [
-                "Water",
-                "None"
-            ],
-            [
-                "Steel",
-                "Fairy"
-            ],
-            [
-                "Water",
-                "Bug"
-            ],
-            [
-                "Normal",
-                "Water"
-            ],
-            [
-                "Grass",
-                "Steel"
-            ],
-            [
-                "Normal",
-                "None"
-            ]
+        "colors": [
+            "black",
+            "gray",
+            "silver"
         ]
     },
     {
-        "id": 8,
+        "id": 9,
         "favorites": [
-            483,
-            195,
-            254,
-            522,
-            10,
-            148,
-            474,
-            499
+            689,
+            109,
+            555,
+            155,
+            427,
+            709,
+            481,
+            43
         ],
         "dislikes": [
-            723,
-            736,
-            776,
-            554,
-            431,
-            265,
-            446,
-            160
+            312,
+            476,
+            559,
+            286,
+            425,
+            321,
+            601,
+            6
         ],
         "favorites_types": [
             [
-                "Bug",
-                "None"
-            ],
-            [
-                "Water",
-                "Rock"
-            ],
-            [
-                "Ghost",
-                "Flying"
-            ],
-            [
-                "Dragon",
-                "None"
-            ],
-            [
-                "Water",
-                "None"
-            ],
-            [
-                "Ice",
-                "Ground"
-            ],
-            [
                 "Electric",
-                "Flying"
+                "None"
+            ],
+            [
+                "Water",
+                "Dark"
             ],
             [
                 "Normal",
                 "None"
-            ]
-        ],
-        "disliked_types": [
-            [
-                "Bug",
-                "Grass"
             ],
             [
                 "Bug",
-                "Rock"
+                "Ghost"
             ],
             [
-                "Bug",
+                "Poison",
+                "Water"
+            ],
+            [
+                "Ice",
                 "None"
-            ],
-            [
-                "Bug",
-                "Flying"
-            ],
-            [
-                "Steel",
-                "Rock"
             ],
             [
                 "Fighting",
                 "None"
             ],
             [
-                "Normal",
-                "None"
-            ]
-        ]
-    },
-    {
-        "id": 9,
-        "favorites": [
-            580,
-            280,
-            778,
-            39,
-            490,
-            218,
-            331,
-            186
-        ],
-        "dislikes": [
-            248,
-            4,
-            138,
-            35,
-            572,
-            414,
-            691,
-            492
-        ],
-        "favorites_types": [
-            [
-                "Bug",
+                "Psychic",
                 "Fire"
-            ],
-            [
-                "Ground",
-                "Electric"
-            ],
-            [
-                "Poison",
-                "None"
-            ],
-            [
-                "Ghost",
-                "None"
-            ],
-            [
-                "Water",
-                "Fairy"
-            ],
-            [
-                "Poison",
-                "Ground"
-            ],
-            [
-                "Water",
-                "Dark"
-            ],
-            [
-                "Grass",
-                "None"
             ]
         ],
         "disliked_types": [
             [
-                "Rock",
-                "Bug"
-            ],
-            [
-                "Psychic",
-                "Flying"
-            ],
-            [
-                "Fire",
-                "None"
-            ],
-            [
-                "Bug",
-                "Fighting"
-            ],
-            [
-                "Steel",
+                "Normal",
                 "Fairy"
             ],
             [
-                "Rock",
-                "Ground"
-            ],
-            [
-                "Electric",
+                "Grass",
                 "None"
             ],
             [
-                "Fairy",
-                "None"
-            ]
-        ]
-    },
-    {
-        "id": 10,
-        "favorites": [
-            225,
-            742,
-            316,
-            513,
-            593,
-            477,
-            247,
-            202
-        ],
-        "dislikes": [
-            789,
-            210,
-            100,
-            566,
-            532,
-            155,
-            399,
-            507
-        ],
-        "favorites_types": [
+                "Ghost",
+                "Grass"
+            ],
             [
-                "Rock",
+                "Steel",
+                "Ghost"
+            ],
+            [
+                "Normal",
                 "None"
+            ],
+            [
+                "Poison",
+                "Dark"
             ],
             [
                 "Water",
                 "Grass"
             ],
             [
-                "Normal",
-                "Flying"
-            ],
+                "Water",
+                "Rock"
+            ]
+        ],
+        "colors": [
+            "black",
+            "gray",
+            "white"
+        ]
+    },
+    {
+        "id": 10,
+        "favorites": [
+            383,
+            97,
+            206,
+            784,
+            578,
+            87,
+            773,
+            443
+        ],
+        "dislikes": [
+            424,
+            99,
+            624,
+            481,
+            564,
+            58,
+            548,
+            287
+        ],
+        "favorites_types": [
             [
-                "Grass",
+                "Dragon",
                 "Ground"
             ],
             [
-                "Ice",
-                "None"
+                "Water",
+                "Ground"
             ],
-            [
-                "Bug",
-                "Water"
-            ],
-            [
-                "Normal",
-                "None"
-            ]
-        ],
-        "disliked_types": [
             [
                 "Psychic",
                 "None"
             ],
             [
-                "Water",
-                "None"
-            ],
-            [
-                "Water",
-                "Bug"
-            ],
-            [
                 "Bug",
-                "Poison"
+                "None"
             ],
             [
                 "Grass",
                 "None"
+            ],
+            [
+                "Dark",
+                "Psychic"
+            ],
+            [
+                "Rock",
+                "None"
+            ],
+            [
+                "Ice",
+                "Ground"
+            ]
+        ],
+        "disliked_types": [
+            [
+                "Water",
+                "Ground"
             ],
             [
                 "Electric",
                 "None"
             ],
             [
-                "Dragon",
-                "Ground"
+                "Fire",
+                "Flying"
+            ],
+            [
+                "Bug",
+                "None"
+            ],
+            [
+                "Grass",
+                "None"
             ],
             [
                 "Normal",
                 "None"
+            ],
+            [
+                "Psychic",
+                "Fighting"
+            ],
+            [
+                "Psychic",
+                "Fire"
             ]
+        ],
+        "colors": [
+            "black",
+            "silver",
+            "gray",
+            "white"
         ]
     }
 ]

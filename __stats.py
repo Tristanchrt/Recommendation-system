@@ -1,6 +1,7 @@
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
+import squarify
 with open('images/metadata/metadata.json','r') as f:
     data = json.loads(f.read())
 # df = pd.read_json('images/metadata/metadata.json')
@@ -9,10 +10,13 @@ df = pd.json_normalize(
     data,  
     meta=[
         'class',
-        ['properties', 'type1', 'types2'], 
+        ['properties', 'type1', 'types2'],
+        'colors' 
     ]
 )
 
+
+## Count by type
 grouped_df = df.groupby(['properties.type1'])['properties.type1']
 print(grouped_df.describe())
 x = []
@@ -24,5 +28,28 @@ for key, item in grouped_df:
 
 plt.bar(x,y )
 plt.show()
-# print(stats)
 
+
+
+### Colors bar 
+count_by_colors = {}
+
+for el in data:
+    colors = el["closest_colors"]
+    for color in colors:
+        if color in count_by_colors.keys():
+            count_by_colors[color] += 1
+        else: 
+            count_by_colors[color] = 1
+
+plt.bar(range(len(count_by_colors)), list(count_by_colors.values()), align='center', color=count_by_colors.keys())
+plt.xticks(range(len(count_by_colors)), list(count_by_colors.keys()))
+plt.show()
+
+
+df = pd.DataFrame({'presence':count_by_colors.values(), 'color':count_by_colors.keys() })
+
+# plot it
+squarify.plot(sizes=df['presence'], label=df['color'], alpha=.8 ,color=count_by_colors.keys())
+plt.axis('off')
+plt.show()

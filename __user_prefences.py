@@ -4,7 +4,6 @@ import numpy as np
 
 with open("images/metadata/metadata.json", 'r') as images_infos:
     images_infos = json.load(images_infos)
-    print(images_infos[0])
 users_preferences = []
 
 number_of_users = 10
