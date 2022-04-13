@@ -1,7 +1,9 @@
 import json
 import pandas as pd
-import matplotlib.pyplot as plt
 import squarify
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+
 with open('images/metadata/metadata.json','r') as f:
     data = json.loads(f.read())
     dataFrame = pd.DataFrame(data)
@@ -52,7 +54,6 @@ df = pd.DataFrame({'presence':count_by_colors.values(), 'color':count_by_colors.
 squarify.plot(sizes=df['presence'], label=df['color'], alpha=.8 ,color=count_by_colors.keys())
 plt.axis('off')
 plt.show()
-import matplotlib.image as mpimg
 
 _, axs = plt.subplots(2, 5, figsize=(8, 8))
 axs = axs.flatten()
