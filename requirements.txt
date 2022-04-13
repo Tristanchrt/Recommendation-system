@@ -1,0 +1,8 @@
+numpy
+matplotlib
+pandas
+squarify
+webcolors
+progressbar
+kaggle
+sklearn
