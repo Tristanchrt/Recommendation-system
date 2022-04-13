@@ -10,5 +10,5 @@ import matplotlib.image as img
 
 
 
-with open("images/metadata/metadata.json", 'w+') as outfile:
-    outfile.write(json.dumps(json_data))
+# with open("images/metadata/metadata.json", 'w+') as outfile:
+#     outfile.write(json.dumps(json_data))
