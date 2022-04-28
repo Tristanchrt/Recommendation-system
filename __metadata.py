@@ -9,7 +9,8 @@ import numpy as np
 import math
 from sklearn.cluster import KMeans
 import webcolors
-import progressbar
+import multiprocessing as mp
+cpu_count = mp.cpu_count()
 
 
 def main_colors(imgfile):
@@ -41,42 +42,42 @@ def get_closest_color(rgb_triplet):
 df = pd.read_csv('images/pokemon.csv', sep=',',header=None, skiprows=1)
 df.replace(np.nan, "")
 json_data = []
-id = 0
 total = len([name for name in os.listdir("images/images/")])
-bar = progressbar.ProgressBar(widgets=['Extraction : ', ' ',progressbar.Percentage(), progressbar.Bar(marker='#',left='[',right=']'),
-           ' '], maxval=total)
-bar.start()
 
-for filename in os.listdir("images/images/")[:200]:
-    f = "images/images/" + filename
-    image = Image.open(f)
-    image = image.resize((120,120))
-    metadata = df.loc[df[0] == filename.split(".")[0]]
-  
-    closest_name_list = []
-    name = metadata[0].values[0]
-    main_colors_value = main_colors(image)
-    for i in range(len(main_colors_value)):
-        rgb_color = ImageColor.getcolor(main_colors_value[i], "RGB")
-        closest_name = get_closest_color(rgb_color)
-        closest_name_list.append(closest_name)  
+def explore_image(filename,id):
+        f = "images/images/" + filename
+        image = Image.open(f)
+        image = image.resize((120,120))
+        metadata = df.loc[df[0] == filename.split(".")[0]]
+    
+        closest_name_list = []
+        main_colors_value = main_colors(image)
+        for i in range(len(main_colors_value)):
+            rgb_color = ImageColor.getcolor(main_colors_value[i], "RGB")
+            closest_name = get_closest_color(rgb_color)
+            closest_name_list.append(closest_name)  
 
-    id+=1
-    json_metadata = {
-        "id" : id,
-        "properties" : {
-            "name" : metadata[0].replace(np.nan, "None").values[0],
-            "type1" : metadata[1].replace(np.nan, "None").values[0],
-            "type2" : metadata[2].replace(np.nan, "None").values[0]
-        },
-        "size" : image.size,
-        "colors" : main_colors_value,
-        "closest_colors": closest_name_list,
-        "tags" : [],
-        "path" : f 
-    }
-    bar.update(id)
-    json_data.append(json_metadata)
-bar.finish()
-with open("images/metadata/metadata.json", 'w+') as outfile:
-    outfile.write(json.dumps(json_data))
+        
+        json_metadata = {
+            "id" : id,
+            "properties" : {
+                "name" : metadata[0].replace(np.nan, "None").values[0],
+                "type1" : metadata[1].replace(np.nan, "None").values[0],
+                "type2" : metadata[2].replace(np.nan, "None").values[0]
+            },
+            "size" : image.size,
+            "colors" : main_colors_value,
+            "closest_colors": closest_name_list,
+            "tags" : [],
+            "path" : f 
+        }
+        json_data.append(json_metadata)
+        print(json_metadata)
+        return json_metadata
+
+filenames = os.listdir("images/images/")[:200]
+with mp.Pool(processes=cpu_count) as pool:
+    array = pool.starmap(explore_image, zip(filenames, range(1,len(filenames))))
+    with open("images/metadata/metadata.json", 'w+') as outfile:
+        outfile.write(json.dumps(array))
+
