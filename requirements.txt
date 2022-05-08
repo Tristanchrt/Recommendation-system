@@ -6,3 +6,4 @@ webcolors
 progressbar
 kaggle
 sklearn
+watchdog

@@ -8,25 +8,19 @@ services:
     command: "--cluster_name NATS --cluster nats://0.0.0.0:6222 --http_port 8222 "
     networks: ["nats"]
 
-  minio:
-    image: minio/minio:latest
-    container_name: myminio
-    environment:
-    MINIO_ROOT_USER: minio
-    MINIO_ROOT_PASSWORD: minio123
-    command: server /data
-  mc:
-    image: minio/mc:latest
-    depends_on:
-    - minio
-    entrypoint: >
-      /bin/sh -c "
-      /usr/bin/mc config host rm local;
-      /usr/bin/mc config host add --quiet --api s3v4 local http://minio:9000 minio minio123;
-      /usr/bin/mc rb --force local/tdm/;
-      /usr/bin/mc mb --quiet local/tdm/;
-      /usr/bin/mc policy set public local/tdm;
-      "
+  observer:
+    image
+  
+  requirements:
+    image: python:3.7-alpine
+    volumes:
+      - requirements:/usr/local/lib/python3.7/site-packages
+      - .:/project
+    working_dir: /project
+    command: pip install -r requirements.txt
 networks:
   nats:
     name: nats
+volumes:
+  images: {}
+  requirements: {}
