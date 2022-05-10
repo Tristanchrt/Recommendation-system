@@ -7,3 +7,9 @@ progressbar
 kaggle
 sklearn
 watchdog
+asyncio
+nats
+PIL
+sklearn
+webcolors
+squarify

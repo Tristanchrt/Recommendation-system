@@ -81,3 +81,4 @@ with mp.Pool(processes=cpu_count) as pool:
     with open("images/metadata/metadata.json", 'w+') as outfile:
         outfile.write(json.dumps(array))
 
+

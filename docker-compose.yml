@@ -1,4 +1,4 @@
-version: "3.5"
+version: "3.3"
 services:
   nats:
     image: nats
@@ -8,19 +8,78 @@ services:
     command: "--cluster_name NATS --cluster nats://0.0.0.0:6222 --http_port 8222 "
     networks: ["nats"]
 
-  observer:
-    image
+  # observer:
+  #   image
   
   requirements:
     image: python:3.7-alpine
     volumes:
       - requirements:/usr/local/lib/python3.7/site-packages
-      - .:/project
+      - requirements.txt:/project
     working_dir: /project
     command: pip install -r requirements.txt
+
+  data:
+    image: python:3.7
+    volumes:
+      - requirements:/usr/local/lib/python3.7/site-packages
+      - __data.py:/project
+    working_dir: /project
+    command: python3 __data.py
+    depends_on:
+      - requirements
+  metadata:
+    image: python:3.7
+    volumes:
+      - requirements:/usr/local/lib/python3.7/site-packages
+      - __metadata.py:/project
+    working_dir: /project
+    command: python3 __metadata.py
+    depends_on:
+      - requirements
+  recommandation:
+    image: python:3.7
+    volumes:
+      - requirements:/usr/local/lib/python3.7/site-packages
+      - __recommandation.py:/project
+    working_dir: /project
+    command: python3 __recommandation.py
+    depends_on:
+      - requirements
+  stats:
+    image: python:3.7
+    volumes:
+      - requirements:/usr/local/lib/python3.7/site-packages
+      - __stats.py:/project
+    working_dir: /project
+    command: python3 __stats.py
+    depends_on:
+      - requirements
+  users_preferences:
+    image: python:3.7
+    volumes:
+      - requirements:/usr/local/lib/python3.7/site-packages
+      - __users_preferences.py:/project
+    working_dir: /project
+    command: python3 __users_preferences.py
+    depends_on:
+      - requirements
+  events:
+    image: python:3.7
+    volumes:
+      - requirements:/usr/local/lib/python3.7/site-packages
+      - __events.py:/project
+    working_dir: /project
+    command: python3 __events.py
+    depends_on:
+      - requirements
+
+
 networks:
   nats:
-    name: nats
+    external:
+      name: nats
+
 volumes:
   images: {}
   requirements: {}
