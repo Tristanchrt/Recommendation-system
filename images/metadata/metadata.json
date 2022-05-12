@@ -1,1 +1,4051 @@
-[{"id": 1, "properties": {"name": "axew", "type1": "Dragon", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/axew.png"}, {"id": 2, "properties": {"name": "crobat", "type1": "Poison", "type2": "Flying"}, "size": [120, 120], "colors": ["#8188a9", "#010101"], "closest_colors": ["gray", "black"], "tags": [], "path": "images/images/crobat.png"}, {"id": 3, "properties": {"name": "drapion", "type1": "Poison", "type2": "Dark"}, "size": [120, 120], "colors": ["#010101", "#9e7199"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/drapion.png"}, {"id": 4, "properties": {"name": "meganium", "type1": "Grass", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#c6c08d"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/meganium.png"}, {"id": 5, "properties": {"name": "mawile", "type1": "Steel", "type2": "Fairy"}, "size": [120, 120], "colors": ["#010101", "#7e7c6b"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/mawile.png"}, {"id": 6, "properties": {"name": "crabominable", "type1": "Fighting", "type2": "Ice"}, "size": [120, 120], "colors": ["#fafbfb", "#7a88a0"], "closest_colors": ["white", "gray"], "tags": [], "path": "images/images/crabominable.jpg"}, {"id": 7, "properties": {"name": "relicanth", "type1": "Water", "type2": "Rock"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/relicanth.png"}, {"id": 8, "properties": {"name": "cacnea", "type1": "Grass", "type2": "None"}, "size": [120, 120], "colors": ["#84a073", "#000100"], "closest_colors": ["gray", "black"], "tags": [], "path": "images/images/cacnea.png"}, {"id": 9, "properties": {"name": "hitmontop", "type1": "Fighting", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#a7978b"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/hitmontop.png"}, {"id": 10, "properties": {"name": "charmeleon", "type1": "Fire", "type2": "None"}, "size": [120, 120], "colors": ["#000101", "#db987c"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/charmeleon.png"}, {"id": 11, "properties": {"name": "drifblim", "type1": "Ghost", "type2": "Flying"}, "size": [120, 120], "colors": ["#000101", "#b2998f"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/drifblim.png"}, {"id": 12, "properties": {"name": "chinchou", "type1": "Water", "type2": "Electric"}, "size": [120, 120], "colors": ["#010101", "#aeb296"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/chinchou.png"}, {"id": 13, "properties": {"name": "staraptor", "type1": "Normal", "type2": "Flying"}, "size": [120, 120], "colors": ["#010101", "#71665a"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/staraptor.png"}, {"id": 14, "properties": {"name": "solrock", "type1": "Rock", "type2": "Psychic"}, "size": [120, 120], "colors": ["#010101", "#cda365"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/solrock.png"}, {"id": 15, "properties": {"name": "clawitzer", "type1": "Water", "type2": "None"}, "size": [120, 120], "colors": ["#668dac", "#000001"], "closest_colors": ["gray", "black"], "tags": [], "path": "images/images/clawitzer.png"}, {"id": 16, "properties": {"name": "shellos", "type1": "Water", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#cea3a6"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/shellos.png"}, {"id": 17, "properties": {"name": "florges", "type1": "Fairy", "type2": "None"}, "size": [120, 120], "colors": ["#8c8f89", "#000001"], "closest_colors": ["gray", "black"], "tags": [], "path": "images/images/florges.png"}, {"id": 18, "properties": {"name": "buizel", "type1": "Water", "type2": "None"}, "size": [120, 120], "colors": ["#010001", "#cf985c"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/buizel.png"}, {"id": 19, "properties": {"name": "venomoth", "type1": "Bug", "type2": "Poison"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/venomoth.png"}, {"id": 20, "properties": {"name": "tyranitar", "type1": "Rock", "type2": "Dark"}, "size": [120, 120], "colors": ["#010101", "#a7b68a"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/tyranitar.png"}, {"id": 21, "properties": {"name": "fletchinder", "type1": "Fire", "type2": "Flying"}, "size": [120, 120], "colors": ["#010101", "#9b7d6a"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/fletchinder.png"}, {"id": 22, "properties": {"name": "swanna", "type1": "Water", "type2": "Flying"}, "size": [120, 120], "colors": ["#c1cdd6", "#010101"], "closest_colors": ["silver", "black"], "tags": [], "path": "images/images/swanna.png"}, {"id": 23, "properties": {"name": "skarmory", "type1": "Steel", "type2": "Flying"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/skarmory.png"}, {"id": 24, "properties": {"name": "steenee", "type1": "Grass", "type2": "None"}, "size": [120, 120], "colors": ["#fffffe", "#b2b798"], "closest_colors": ["white", "silver"], "tags": [], "path": "images/images/steenee.jpg"}, {"id": 25, "properties": {"name": "cloyster", "type1": "Water", "type2": "Ice"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/cloyster.png"}, {"id": 26, "properties": {"name": "shroomish", "type1": "Grass", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/shroomish.png"}, {"id": 27, "properties": {"name": "servine", "type1": "Grass", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#a7be7c"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/servine.png"}, {"id": 28, "properties": {"name": "bronzor", "type1": "Steel", "type2": "Psychic"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/bronzor.png"}, {"id": 29, "properties": {"name": "togekiss", "type1": "Fairy", "type2": "Flying"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/togekiss.png"}, {"id": 30, "properties": {"name": "bounsweet", "type1": "Grass", "type2": "None"}, "size": [120, 120], "colors": ["#b28e90", "#fffffe"], "closest_colors": ["gray", "white"], "tags": [], "path": "images/images/bounsweet.jpg"}, {"id": 31, "properties": {"name": "swalot", "type1": "Poison", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/swalot.png"}, {"id": 32, "properties": {"name": "stantler", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#bca17e"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/stantler.png"}, {"id": 33, "properties": {"name": "braviary", "type1": "Normal", "type2": "Flying"}, "size": [120, 120], "colors": ["#010101", "#685c61"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/braviary.png"}, {"id": 34, "properties": {"name": "poliwrath", "type1": "Water", "type2": "Fighting"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/poliwrath.png"}, {"id": 35, "properties": {"name": "toxicroak", "type1": "Poison", "type2": "Fighting"}, "size": [120, 120], "colors": ["#010100", "#7e829c"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/toxicroak.png"}, {"id": 36, "properties": {"name": "xatu", "type1": "Psychic", "type2": "Flying"}, "size": [120, 120], "colors": ["#a9a471", "#010001"], "closest_colors": ["gray", "black"], "tags": [], "path": "images/images/xatu.png"}, {"id": 37, "properties": {"name": "registeel", "type1": "Steel", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/registeel.png"}, {"id": 38, "properties": {"name": "bellsprout", "type1": "Grass", "type2": "Poison"}, "size": [120, 120], "colors": ["#000101", "#a6b980"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/bellsprout.png"}, {"id": 39, "properties": {"name": "floette", "type1": "Fairy", "type2": "None"}, "size": [120, 120], "colors": ["#a7a693", "#010101"], "closest_colors": ["silver", "black"], "tags": [], "path": "images/images/floette.png"}, {"id": 40, "properties": {"name": "gulpin", "type1": "Poison", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/gulpin.png"}, {"id": 41, "properties": {"name": "bouffalant", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": ["#010100", "#807059"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/bouffalant.png"}, {"id": 42, "properties": {"name": "beartic", "type1": "Ice", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/beartic.png"}, {"id": 43, "properties": {"name": "golurk", "type1": "Ground", "type2": "Ghost"}, "size": [120, 120], "colors": ["#77a198", "#010101"], "closest_colors": ["gray", "black"], "tags": [], "path": "images/images/golurk.png"}, {"id": 44, "properties": {"name": "porygon", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": ["#010001", "#7fa6ae"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/porygon.png"}, {"id": 45, "properties": {"name": "arceus", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#c1c0af"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/arceus.png"}, {"id": 46, "properties": {"name": "exploud", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#9d9baf"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/exploud.png"}, {"id": 47, "properties": {"name": "simipour", "type1": "Water", "type2": "None"}, "size": [120, 120], "colors": ["#000100", "#89bfb6"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/simipour.png"}, {"id": 48, "properties": {"name": "onix", "type1": "Rock", "type2": "Ground"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/onix.png"}, {"id": 49, "properties": {"name": "zweilous", "type1": "Dark", "type2": "Dragon"}, "size": [120, 120], "colors": ["#010101", "#66676f"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/zweilous.png"}, {"id": 50, "properties": {"name": "bewear", "type1": "Normal", "type2": "Fighting"}, "size": [120, 120], "colors": ["#fdfbfb", "#575752"], "closest_colors": ["white", "gray"], "tags": [], "path": "images/images/bewear.jpg"}, {"id": 51, "properties": {"name": "gorebyss", "type1": "Water", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/gorebyss.png"}, {"id": 52, "properties": {"name": "haxorus", "type1": "Dragon", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#86753b"], "closest_colors": ["black", "olive"], "tags": [], "path": "images/images/haxorus.png"}, {"id": 53, "properties": {"name": "zubat", "type1": "Poison", "type2": "Flying"}, "size": [120, 120], "colors": ["#010101", "#7a6b8d"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/zubat.png"}, {"id": 54, "properties": {"name": "wishiwashi-solo", "type1": "Water", "type2": "None"}, "size": [120, 120], "colors": ["#ffffff", "#93a2b2"], "closest_colors": ["white", "silver"], "tags": [], "path": "images/images/wishiwashi-solo.jpg"}, {"id": 55, "properties": {"name": "barbaracle", "type1": "Rock", "type2": "Water"}, "size": [120, 120], "colors": ["#010101", "#999589"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/barbaracle.png"}, {"id": 56, "properties": {"name": "espurr", "type1": "Psychic", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/espurr.png"}, {"id": 57, "properties": {"name": "lairon", "type1": "Steel", "type2": "Rock"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/lairon.png"}, {"id": 58, "properties": {"name": "goldeen", "type1": "Water", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#cbc3be"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/goldeen.png"}, {"id": 59, "properties": {"name": "wooper", "type1": "Water", "type2": "Ground"}, "size": [120, 120], "colors": ["#010101", "#9eb6ca"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/wooper.png"}, {"id": 60, "properties": {"name": "kangaskhan", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": ["#b29b7c", "#000100"], "closest_colors": ["gray", "black"], "tags": [], "path": "images/images/kangaskhan.png"}, {"id": 61, "properties": {"name": "sandshrew", "type1": "Ground", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#d8c884"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/sandshrew.png"}, {"id": 62, "properties": {"name": "pheromosa", "type1": "Bug", "type2": "Fighting"}, "size": [120, 120], "colors": ["#fdfdfd", "#9d9b97"], "closest_colors": ["white", "gray"], "tags": [], "path": "images/images/pheromosa.jpg"}, {"id": 63, "properties": {"name": "lopunny", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": ["#010100", "#c8ab7f"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/lopunny.png"}, {"id": 64, "properties": {"name": "ralts", "type1": "Psychic", "type2": "Fairy"}, "size": [120, 120], "colors": ["#000100", "#bac5b3"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/ralts.png"}, {"id": 65, "properties": {"name": "delcatty", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#b89998"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/delcatty.png"}, {"id": 66, "properties": {"name": "furret", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/furret.png"}, {"id": 67, "properties": {"name": "unown", "type1": "Psychic", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/unown.png"}, {"id": 68, "properties": {"name": "vileplume", "type1": "Grass", "type2": "Poison"}, "size": [120, 120], "colors": ["#000101", "#957486"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/vileplume.png"}, {"id": 69, "properties": {"name": "pelipper", "type1": "Water", "type2": "Flying"}, "size": [120, 120], "colors": ["#d4d0a4", "#010101"], "closest_colors": ["silver", "black"], "tags": [], "path": "images/images/pelipper.png"}, {"id": 70, "properties": {"name": "dragalge", "type1": "Poison", "type2": "Dragon"}, "size": [120, 120], "colors": ["#010101", "#a37a79"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/dragalge.png"}, {"id": 71, "properties": {"name": "metapod", "type1": "Bug", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/metapod.png"}, {"id": 72, "properties": {"name": "poochyena", "type1": "Dark", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/poochyena.png"}, {"id": 73, "properties": {"name": "delphox", "type1": "Fire", "type2": "Psychic"}, "size": [120, 120], "colors": ["#010001", "#b66d53"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/delphox.png"}, {"id": 74, "properties": {"name": "lucario", "type1": "Fighting", "type2": "Steel"}, "size": [120, 120], "colors": ["#010101", "#718185"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/lucario.png"}, {"id": 75, "properties": {"name": "tangela", "type1": "Grass", "type2": "None"}, "size": [120, 120], "colors": ["#6d899b", "#010001"], "closest_colors": ["gray", "black"], "tags": [], "path": "images/images/tangela.png"}, {"id": 76, "properties": {"name": "lampent", "type1": "Ghost", "type2": "Fire"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/lampent.png"}, {"id": 77, "properties": {"name": "chimchar", "type1": "Fire", "type2": "None"}, "size": [120, 120], "colors": ["#010100", "#caa568"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/chimchar.png"}, {"id": 78, "properties": {"name": "clauncher", "type1": "Water", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#8cbcc0"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/clauncher.png"}, {"id": 79, "properties": {"name": "bidoof", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/bidoof.png"}, {"id": 80, "properties": {"name": "lillipup", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#d4b285"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/lillipup.png"}, {"id": 81, "properties": {"name": "claydol", "type1": "Ground", "type2": "Psychic"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/claydol.png"}, {"id": 82, "properties": {"name": "regirock", "type1": "Rock", "type2": "None"}, "size": [120, 120], "colors": ["#b1978d", "#000001"], "closest_colors": ["gray", "black"], "tags": [], "path": "images/images/regirock.png"}, {"id": 83, "properties": {"name": "scizor", "type1": "Bug", "type2": "Steel"}, "size": [120, 120], "colors": ["#000101", "#ba6f6e"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/scizor.png"}, {"id": 84, "properties": {"name": "venusaur", "type1": "Grass", "type2": "Poison"}, "size": [120, 120], "colors": ["#010101", "#92b0aa"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/venusaur.png"}, {"id": 85, "properties": {"name": "meowth", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#c6bdaa"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/meowth.png"}, {"id": 86, "properties": {"name": "mime-jr", "type1": "Psychic", "type2": "Fairy"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/mime-jr.png"}, {"id": 87, "properties": {"name": "cresselia", "type1": "Psychic", "type2": "None"}, "size": [120, 120], "colors": ["#dcbbbc", "#010101"], "closest_colors": ["silver", "black"], "tags": [], "path": "images/images/cresselia.png"}, {"id": 88, "properties": {"name": "lycanroc-midday", "type1": "Rock", "type2": "None"}, "size": [120, 120], "colors": ["#fefefd", "#958f8c"], "closest_colors": ["white", "gray"], "tags": [], "path": "images/images/lycanroc-midday.jpg"}, {"id": 89, "properties": {"name": "scatterbug", "type1": "Bug", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/scatterbug.png"}, {"id": 90, "properties": {"name": "electabuzz", "type1": "Electric", "type2": "None"}, "size": [120, 120], "colors": ["#010001", "#a99f61"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/electabuzz.png"}, {"id": 91, "properties": {"name": "yanmega", "type1": "Bug", "type2": "Flying"}, "size": [120, 120], "colors": ["#000100", "#8a8472"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/yanmega.png"}, {"id": 92, "properties": {"name": "wartortle", "type1": "Water", "type2": "None"}, "size": [120, 120], "colors": ["#b2bec8", "#010101"], "closest_colors": ["silver", "black"], "tags": [], "path": "images/images/wartortle.png"}, {"id": 93, "properties": {"name": "burmy", "type1": "Bug", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/burmy.png"}, {"id": 94, "properties": {"name": "goomy", "type1": "Dragon", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/goomy.png"}, {"id": 95, "properties": {"name": "torkoal", "type1": "Fire", "type2": "None"}, "size": [120, 120], "colors": ["#000000", "#c3a28c"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/torkoal.png"}, {"id": 96, "properties": {"name": "vanillite", "type1": "Ice", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#cdd4de"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/vanillite.png"}, {"id": 97, "properties": {"name": "aurorus", "type1": "Rock", "type2": "Ice"}, "size": [120, 120], "colors": ["#010101", "#afc4cf"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/aurorus.png"}, {"id": 98, "properties": {"name": "seedot", "type1": "Grass", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/seedot.png"}, {"id": 99, "properties": {"name": "combee", "type1": "Bug", "type2": "Flying"}, "size": [120, 120], "colors": ["#010101", "#d2b469"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/combee.png"}, {"id": 100, "properties": {"name": "teddiursa", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#d49d5d"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/teddiursa.png"}, {"id": 101, "properties": {"name": "lurantis", "type1": "Grass", "type2": "None"}, "size": [120, 120], "colors": ["#fefdfd", "#c68e97"], "closest_colors": ["white", "silver"], "tags": [], "path": "images/images/lurantis.jpg"}, {"id": 102, "properties": {"name": "genesect", "type1": "Bug", "type2": "Steel"}, "size": [120, 120], "colors": ["#000100", "#9f859f"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/genesect.png"}, {"id": 103, "properties": {"name": "duskull", "type1": "Ghost", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/duskull.png"}, {"id": 104, "properties": {"name": "marowak", "type1": "Ground", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#cbbfab"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/marowak.png"}, {"id": 105, "properties": {"name": "combusken", "type1": "Fire", "type2": "Fighting"}, "size": [120, 120], "colors": ["#010100", "#ccab7c"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/combusken.png"}, {"id": 106, "properties": {"name": "igglybuff", "type1": "Normal", "type2": "Fairy"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/igglybuff.png"}, {"id": 107, "properties": {"name": "rhyhorn", "type1": "Ground", "type2": "Rock"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/rhyhorn.png"}, {"id": 108, "properties": {"name": "farfetchd", "type1": "Normal", "type2": "Flying"}, "size": [120, 120], "colors": ["#010101", "#bdb18d"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/farfetchd.png"}, {"id": 109, "properties": {"name": "cryogonal", "type1": "Ice", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#7a99b5"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/cryogonal.png"}, {"id": 110, "properties": {"name": "throh", "type1": "Fighting", "type2": "None"}, "size": [120, 120], "colors": ["#010001", "#ac9690"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/throh.png"}, {"id": 111, "properties": {"name": "clamperl", "type1": "Water", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/clamperl.png"}, {"id": 112, "properties": {"name": "spinarak", "type1": "Bug", "type2": "Poison"}, "size": [120, 120], "colors": ["#010101", "#a6af78"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/spinarak.png"}, {"id": 113, "properties": {"name": "joltik", "type1": "Bug", "type2": "Electric"}, "size": [120, 120], "colors": ["#010101", "#cec66c"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/joltik.png"}, {"id": 114, "properties": {"name": "dusknoir", "type1": "Ghost", "type2": "None"}, "size": [120, 120], "colors": ["#000001", "#888574"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/dusknoir.png"}, {"id": 115, "properties": {"name": "azurill", "type1": "Normal", "type2": "Fairy"}, "size": [120, 120], "colors": ["#010100", "#418db8"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/azurill.png"}, {"id": 116, "properties": {"name": "plusle", "type1": "Electric", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#cf9785"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/plusle.png"}, {"id": 117, "properties": {"name": "gyarados", "type1": "Water", "type2": "Flying"}, "size": [120, 120], "colors": ["#010001", "#87a1a7"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/gyarados.png"}, {"id": 118, "properties": {"name": "pinsir", "type1": "Bug", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/pinsir.png"}, {"id": 119, "properties": {"name": "stakataka", "type1": "Rock", "type2": "Steel"}, "size": [120, 120], "colors": ["#fefefe", "#6f7274"], "closest_colors": ["white", "gray"], "tags": [], "path": "images/images/stakataka.jpg"}, {"id": 120, "properties": {"name": "sawk", "type1": "Fighting", "type2": "None"}, "size": [120, 120], "colors": ["#000101", "#6b8896"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/sawk.png"}, {"id": 121, "properties": {"name": "crustle", "type1": "Bug", "type2": "Rock"}, "size": [120, 120], "colors": ["#010000", "#856e53"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/crustle.png"}, {"id": 122, "properties": {"name": "charjabug", "type1": "Bug", "type2": "Electric"}, "size": [120, 120], "colors": ["#fffffe", "#6a8153"], "closest_colors": ["white", "gray"], "tags": [], "path": "images/images/charjabug.jpg"}, {"id": 123, "properties": {"name": "escavalier", "type1": "Bug", "type2": "Steel"}, "size": [120, 120], "colors": ["#010101", "#c69992"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/escavalier.png"}, {"id": 124, "properties": {"name": "avalugg", "type1": "Ice", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#8dbad5"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/avalugg.png"}, {"id": 125, "properties": {"name": "yungoos", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": ["#fffffe", "#a9896e"], "closest_colors": ["white", "gray"], "tags": [], "path": "images/images/yungoos.jpg"}, {"id": 126, "properties": {"name": "loudred", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#9e95a3"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/loudred.png"}, {"id": 127, "properties": {"name": "kommo-o", "type1": "Dragon", "type2": "Fighting"}, "size": [120, 120], "colors": ["#fefefd", "#888372"], "closest_colors": ["white", "gray"], "tags": [], "path": "images/images/kommo-o.jpg"}, {"id": 128, "properties": {"name": "umbreon", "type1": "Dark", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/umbreon.png"}, {"id": 129, "properties": {"name": "pikachu", "type1": "Electric", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/pikachu.png"}, {"id": 130, "properties": {"name": "ponyta", "type1": "Fire", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#ddbd7a"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/ponyta.png"}, {"id": 131, "properties": {"name": "heatran", "type1": "Fire", "type2": "Steel"}, "size": [120, 120], "colors": ["#000001", "#9e847a"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/heatran.png"}, {"id": 132, "properties": {"name": "metang", "type1": "Steel", "type2": "Psychic"}, "size": [120, 120], "colors": ["#000001", "#628998"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/metang.png"}, {"id": 133, "properties": {"name": "gardevoir", "type1": "Psychic", "type2": "Fairy"}, "size": [120, 120], "colors": ["#010101", "#ccd8ca"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/gardevoir.png"}, {"id": 134, "properties": {"name": "piloswine", "type1": "Ice", "type2": "Ground"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/piloswine.png"}, {"id": 135, "properties": {"name": "geodude", "type1": "Rock", "type2": "Ground"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/geodude.png"}, {"id": 136, "properties": {"name": "baltoy", "type1": "Ground", "type2": "Psychic"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/baltoy.png"}, {"id": 137, "properties": {"name": "ribombee", "type1": "Bug", "type2": "Fairy"}, "size": [120, 120], "colors": ["#fdfdfc", "#968b79"], "closest_colors": ["white", "gray"], "tags": [], "path": "images/images/ribombee.jpg"}, {"id": 138, "properties": {"name": "slugma", "type1": "Fire", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#da835c"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/slugma.png"}, {"id": 139, "properties": {"name": "raikou", "type1": "Electric", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#cdbe8b"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/raikou.png"}, {"id": 140, "properties": {"name": "chesnaught", "type1": "Grass", "type2": "Fighting"}, "size": [120, 120], "colors": ["#010101", "#aca88e"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/chesnaught.png"}, {"id": 141, "properties": {"name": "horsea", "type1": "Water", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#a2c6cc"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/horsea.png"}, {"id": 142, "properties": {"name": "nidoqueen", "type1": "Poison", "type2": "Ground"}, "size": [120, 120], "colors": ["#010101", "#96acb8"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/nidoqueen.png"}, {"id": 143, "properties": {"name": "rhyperior", "type1": "Ground", "type2": "Rock"}, "size": [120, 120], "colors": ["#010000", "#a57862"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/rhyperior.png"}, {"id": 144, "properties": {"name": "koffing", "type1": "Poison", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/koffing.png"}, {"id": 145, "properties": {"name": "shuckle", "type1": "Bug", "type2": "Rock"}, "size": [120, 120], "colors": ["#000001", "#d8a95c"], "closest_colors": ["black", "orange"], "tags": [], "path": "images/images/shuckle.png"}, {"id": 146, "properties": {"name": "turtonator", "type1": "Fire", "type2": "Dragon"}, "size": [120, 120], "colors": ["#fefefe", "#a7735c"], "closest_colors": ["white", "gray"], "tags": [], "path": "images/images/turtonator.jpg"}, {"id": 147, "properties": {"name": "cubone", "type1": "Ground", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/cubone.png"}, {"id": 148, "properties": {"name": "hakamo-o", "type1": "Dragon", "type2": "Fighting"}, "size": [120, 120], "colors": ["#fefefd", "#918f7b"], "closest_colors": ["white", "gray"], "tags": [], "path": "images/images/hakamo-o.jpg"}, {"id": 149, "properties": {"name": "swinub", "type1": "Ice", "type2": "Ground"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/swinub.png"}, {"id": 150, "properties": {"name": "talonflame", "type1": "Fire", "type2": "Flying"}, "size": [120, 120], "colors": ["#010101", "#9a857d"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/talonflame.png"}, {"id": 151, "properties": {"name": "whimsicott", "type1": "Grass", "type2": "Fairy"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/whimsicott.png"}, {"id": 152, "properties": {"name": "munna", "type1": "Psychic", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/munna.png"}, {"id": 153, "properties": {"name": "jellicent", "type1": "Water", "type2": "Ghost"}, "size": [120, 120], "colors": ["#010101", "#b5d6e9"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/jellicent.png"}, {"id": 154, "properties": {"name": "grubbin", "type1": "Bug", "type2": "None"}, "size": [120, 120], "colors": ["#ffffff", "#b69f82"], "closest_colors": ["white", "gray"], "tags": [], "path": "images/images/grubbin.jpg"}, {"id": 155, "properties": {"name": "cinccino", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/cinccino.png"}, {"id": 156, "properties": {"name": "luxray", "type1": "Electric", "type2": "None"}, "size": [120, 120], "colors": ["#000100", "#5a5a53"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/luxray.png"}, {"id": 157, "properties": {"name": "bronzong", "type1": "Steel", "type2": "Psychic"}, "size": [120, 120], "colors": ["#000100", "#6b9e9e"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/bronzong.png"}, {"id": 158, "properties": {"name": "skiploom", "type1": "Grass", "type2": "Flying"}, "size": [120, 120], "colors": ["#010101", "#8bba40"], "closest_colors": ["black", "olive"], "tags": [], "path": "images/images/skiploom.png"}, {"id": 159, "properties": {"name": "swirlix", "type1": "Fairy", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/swirlix.png"}, {"id": 160, "properties": {"name": "remoraid", "type1": "Water", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/remoraid.png"}, {"id": 161, "properties": {"name": "dwebble", "type1": "Bug", "type2": "Rock"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/dwebble.png"}, {"id": 162, "properties": {"name": "skuntank", "type1": "Poison", "type2": "Dark"}, "size": [120, 120], "colors": ["#000001", "#8e7c88"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/skuntank.png"}, {"id": 163, "properties": {"name": "togedemaru", "type1": "Electric", "type2": "Steel"}, "size": [120, 120], "colors": ["#ffffff", "#bbbcaf"], "closest_colors": ["white", "silver"], "tags": [], "path": "images/images/togedemaru.jpg"}, {"id": 164, "properties": {"name": "articuno", "type1": "Ice", "type2": "Flying"}, "size": [120, 120], "colors": ["#010101", "#80abc6"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/articuno.png"}, {"id": 165, "properties": {"name": "cleffa", "type1": "Fairy", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/cleffa.png"}, {"id": 166, "properties": {"name": "musharna", "type1": "Psychic", "type2": "None"}, "size": [120, 120], "colors": ["#000001", "#dab1c4"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/musharna.png"}, {"id": 167, "properties": {"name": "weezing", "type1": "Poison", "type2": "None"}, "size": [120, 120], "colors": ["#a999a2", "#010101"], "closest_colors": ["silver", "black"], "tags": [], "path": "images/images/weezing.png"}, {"id": 168, "properties": {"name": "pancham", "type1": "Fighting", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/pancham.png"}, {"id": 169, "properties": {"name": "vullaby", "type1": "Dark", "type2": "Flying"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/vullaby.png"}, {"id": 170, "properties": {"name": "eevee", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/eevee.png"}, {"id": 171, "properties": {"name": "lileep", "type1": "Rock", "type2": "Grass"}, "size": [120, 120], "colors": ["#010101", "#ad969e"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/lileep.png"}, {"id": 172, "properties": {"name": "hippowdon", "type1": "Ground", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/hippowdon.png"}, {"id": 173, "properties": {"name": "magearna", "type1": "Steel", "type2": "Fairy"}, "size": [120, 120], "colors": ["#fefefd", "#b4aca3"], "closest_colors": ["white", "silver"], "tags": [], "path": "images/images/magearna.jpg"}, {"id": 174, "properties": {"name": "pichu", "type1": "Electric", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/pichu.png"}, {"id": 175, "properties": {"name": "whismur", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/whismur.png"}, {"id": 176, "properties": {"name": "conkeldurr", "type1": "Fighting", "type2": "None"}, "size": [120, 120], "colors": ["#000101", "#a29390"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/conkeldurr.png"}, {"id": 177, "properties": {"name": "breloom", "type1": "Grass", "type2": "Fighting"}, "size": [120, 120], "colors": ["#000101", "#a2a288"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/breloom.png"}, {"id": 178, "properties": {"name": "luxio", "type1": "Electric", "type2": "None"}, "size": [120, 120], "colors": ["#000101", "#6d7a71"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/luxio.png"}, {"id": 179, "properties": {"name": "aegislash-blade", "type1": "Steel", "type2": "Ghost"}, "size": [120, 120], "colors": ["#a39880", "#000000"], "closest_colors": ["gray", "black"], "tags": [], "path": "images/images/aegislash-blade.png"}, {"id": 180, "properties": {"name": "decidueye", "type1": "Grass", "type2": "Ghost"}, "size": [120, 120], "colors": ["#fefefd", "#aca985"], "closest_colors": ["white", "gray"], "tags": [], "path": "images/images/decidueye.jpg"}, {"id": 181, "properties": {"name": "blacephalon", "type1": "Fire", "type2": "Ghost"}, "size": [120, 120], "colors": ["#94989b", "#fefefe"], "closest_colors": ["gray", "white"], "tags": [], "path": "images/images/blacephalon.jpg"}, {"id": 182, "properties": {"name": "shinx", "type1": "Electric", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#8badaa"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/shinx.png"}, {"id": 183, "properties": {"name": "sharpedo", "type1": "Water", "type2": "Dark"}, "size": [120, 120], "colors": ["#000000", "#5b8ca9"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/sharpedo.png"}, {"id": 184, "properties": {"name": "swoobat", "type1": "Psychic", "type2": "Flying"}, "size": [120, 120], "colors": ["#000001", "#6d7c8c"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/swoobat.png"}, {"id": 185, "properties": {"name": "seviper", "type1": "Poison", "type2": "None"}, "size": [120, 120], "colors": ["#6c7473", "#000001"], "closest_colors": ["gray", "black"], "tags": [], "path": "images/images/seviper.png"}, {"id": 186, "properties": {"name": "vanillish", "type1": "Ice", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#b3c5d9"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/vanillish.png"}, {"id": 187, "properties": {"name": "sunkern", "type1": "Grass", "type2": "None"}, "size": [120, 120], "colors": ["#010100", "#a09a52"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/sunkern.png"}, {"id": 188, "properties": {"name": "mismagius", "type1": "Ghost", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#8c6490"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/mismagius.png"}, {"id": 189, "properties": {"name": "roserade", "type1": "Grass", "type2": "Poison"}, "size": [120, 120], "colors": ["#000101", "#9da4a7"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/roserade.png"}, {"id": 190, "properties": {"name": "vikavolt", "type1": "Bug", "type2": "Electric"}, "size": [120, 120], "colors": ["#fdfdfd", "#4d7579"], "closest_colors": ["white", "gray"], "tags": [], "path": "images/images/vikavolt.jpg"}, {"id": 191, "properties": {"name": "piplup", "type1": "Water", "type2": "None"}, "size": [120, 120], "colors": ["#010101", "#8caebe"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/piplup.png"}, {"id": 192, "properties": {"name": "cubchoo", "type1": "Ice", "type2": "None"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/cubchoo.png"}, {"id": 193, "properties": {"name": "seaking", "type1": "Water", "type2": "None"}, "size": [120, 120], "colors": ["#d2b3a6", "#010101"], "closest_colors": ["silver", "black"], "tags": [], "path": "images/images/seaking.png"}, {"id": 194, "properties": {"name": "magneton", "type1": "Electric", "type2": "Steel"}, "size": [120, 120], "colors": ["#010001", "#97a2a4"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/magneton.png"}, {"id": 195, "properties": {"name": "darumaka", "type1": "Fire", "type2": "None"}, "size": [120, 120], "colors": ["#000001", "#ba6e59"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/darumaka.png"}, {"id": 196, "properties": {"name": "zapdos", "type1": "Electric", "type2": "Flying"}, "size": [120, 120], "colors": ["#010101", "#cab979"], "closest_colors": ["black", "silver"], "tags": [], "path": "images/images/zapdos.png"}, {"id": 197, "properties": {"name": "porygon2", "type1": "Normal", "type2": "None"}, "size": [120, 120], "colors": ["#010100", "#a58ba2"], "closest_colors": ["black", "gray"], "tags": [], "path": "images/images/porygon2.png"}, {"id": 198, "properties": {"name": "nincada", "type1": "Bug", "type2": "Ground"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/nincada.png"}, {"id": 199, "properties": {"name": "kakuna", "type1": "Bug", "type2": "Poison"}, "size": [120, 120], "colors": "", "closest_colors": [], "tags": [], "path": "images/images/kakuna.png"}]
+[
+    {
+        "id": 1,
+        "properties": {
+            "name": "axew",
+            "type1": "Dragon",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/axew.png"
+    },
+    {
+        "id": 2,
+        "properties": {
+            "name": "crobat",
+            "type1": "Poison",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#8188a9",
+            "#010101"
+        ],
+        "closest_colors": [
+            "gray",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/crobat.png"
+    },
+    {
+        "id": 3,
+        "properties": {
+            "name": "drapion",
+            "type1": "Poison",
+            "type2": "Dark"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#9e7199"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/drapion.png"
+    },
+    {
+        "id": 4,
+        "properties": {
+            "name": "meganium",
+            "type1": "Grass",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#c6c08d"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/meganium.png"
+    },
+    {
+        "id": 5,
+        "properties": {
+            "name": "mawile",
+            "type1": "Steel",
+            "type2": "Fairy"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#7e7c6b"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/mawile.png"
+    },
+    {
+        "id": 6,
+        "properties": {
+            "name": "crabominable",
+            "type1": "Fighting",
+            "type2": "Ice"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fafbfb",
+            "#7a88a0"
+        ],
+        "closest_colors": [
+            "white",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/crabominable.jpg"
+    },
+    {
+        "id": 7,
+        "properties": {
+            "name": "relicanth",
+            "type1": "Water",
+            "type2": "Rock"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/relicanth.png"
+    },
+    {
+        "id": 8,
+        "properties": {
+            "name": "cacnea",
+            "type1": "Grass",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#84a073",
+            "#000100"
+        ],
+        "closest_colors": [
+            "gray",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/cacnea.png"
+    },
+    {
+        "id": 9,
+        "properties": {
+            "name": "hitmontop",
+            "type1": "Fighting",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#a7978b"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/hitmontop.png"
+    },
+    {
+        "id": 10,
+        "properties": {
+            "name": "charmeleon",
+            "type1": "Fire",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000101",
+            "#db987c"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/charmeleon.png"
+    },
+    {
+        "id": 11,
+        "properties": {
+            "name": "drifblim",
+            "type1": "Ghost",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000101",
+            "#b2998f"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/drifblim.png"
+    },
+    {
+        "id": 12,
+        "properties": {
+            "name": "chinchou",
+            "type1": "Water",
+            "type2": "Electric"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#aeb296"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/chinchou.png"
+    },
+    {
+        "id": 13,
+        "properties": {
+            "name": "staraptor",
+            "type1": "Normal",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#71665a"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/staraptor.png"
+    },
+    {
+        "id": 14,
+        "properties": {
+            "name": "solrock",
+            "type1": "Rock",
+            "type2": "Psychic"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#cda365"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/solrock.png"
+    },
+    {
+        "id": 15,
+        "properties": {
+            "name": "clawitzer",
+            "type1": "Water",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#668dac",
+            "#000001"
+        ],
+        "closest_colors": [
+            "gray",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/clawitzer.png"
+    },
+    {
+        "id": 16,
+        "properties": {
+            "name": "shellos",
+            "type1": "Water",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#cea3a6"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/shellos.png"
+    },
+    {
+        "id": 17,
+        "properties": {
+            "name": "florges",
+            "type1": "Fairy",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#8c8f89",
+            "#000001"
+        ],
+        "closest_colors": [
+            "gray",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/florges.png"
+    },
+    {
+        "id": 18,
+        "properties": {
+            "name": "buizel",
+            "type1": "Water",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010001",
+            "#cf985c"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/buizel.png"
+    },
+    {
+        "id": 19,
+        "properties": {
+            "name": "venomoth",
+            "type1": "Bug",
+            "type2": "Poison"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/venomoth.png"
+    },
+    {
+        "id": 20,
+        "properties": {
+            "name": "tyranitar",
+            "type1": "Rock",
+            "type2": "Dark"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#a7b68a"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/tyranitar.png"
+    },
+    {
+        "id": 21,
+        "properties": {
+            "name": "fletchinder",
+            "type1": "Fire",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#9b7d6a"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/fletchinder.png"
+    },
+    {
+        "id": 22,
+        "properties": {
+            "name": "swanna",
+            "type1": "Water",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#c1cdd6",
+            "#010101"
+        ],
+        "closest_colors": [
+            "silver",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/swanna.png"
+    },
+    {
+        "id": 23,
+        "properties": {
+            "name": "skarmory",
+            "type1": "Steel",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/skarmory.png"
+    },
+    {
+        "id": 24,
+        "properties": {
+            "name": "steenee",
+            "type1": "Grass",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fffffe",
+            "#b2b798"
+        ],
+        "closest_colors": [
+            "white",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/steenee.jpg"
+    },
+    {
+        "id": 25,
+        "properties": {
+            "name": "cloyster",
+            "type1": "Water",
+            "type2": "Ice"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/cloyster.png"
+    },
+    {
+        "id": 26,
+        "properties": {
+            "name": "shroomish",
+            "type1": "Grass",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/shroomish.png"
+    },
+    {
+        "id": 27,
+        "properties": {
+            "name": "servine",
+            "type1": "Grass",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#a7be7c"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/servine.png"
+    },
+    {
+        "id": 28,
+        "properties": {
+            "name": "bronzor",
+            "type1": "Steel",
+            "type2": "Psychic"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/bronzor.png"
+    },
+    {
+        "id": 29,
+        "properties": {
+            "name": "togekiss",
+            "type1": "Fairy",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/togekiss.png"
+    },
+    {
+        "id": 30,
+        "properties": {
+            "name": "bounsweet",
+            "type1": "Grass",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#b28e90",
+            "#fffffe"
+        ],
+        "closest_colors": [
+            "gray",
+            "white"
+        ],
+        "tags": [],
+        "path": "images/images/bounsweet.jpg"
+    },
+    {
+        "id": 31,
+        "properties": {
+            "name": "swalot",
+            "type1": "Poison",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/swalot.png"
+    },
+    {
+        "id": 32,
+        "properties": {
+            "name": "stantler",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#bca17e"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/stantler.png"
+    },
+    {
+        "id": 33,
+        "properties": {
+            "name": "braviary",
+            "type1": "Normal",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#685c61"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/braviary.png"
+    },
+    {
+        "id": 34,
+        "properties": {
+            "name": "poliwrath",
+            "type1": "Water",
+            "type2": "Fighting"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/poliwrath.png"
+    },
+    {
+        "id": 35,
+        "properties": {
+            "name": "toxicroak",
+            "type1": "Poison",
+            "type2": "Fighting"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010100",
+            "#7e829c"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/toxicroak.png"
+    },
+    {
+        "id": 36,
+        "properties": {
+            "name": "xatu",
+            "type1": "Psychic",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#a9a471",
+            "#010001"
+        ],
+        "closest_colors": [
+            "gray",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/xatu.png"
+    },
+    {
+        "id": 37,
+        "properties": {
+            "name": "registeel",
+            "type1": "Steel",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/registeel.png"
+    },
+    {
+        "id": 38,
+        "properties": {
+            "name": "bellsprout",
+            "type1": "Grass",
+            "type2": "Poison"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000101",
+            "#a6b980"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/bellsprout.png"
+    },
+    {
+        "id": 39,
+        "properties": {
+            "name": "floette",
+            "type1": "Fairy",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#a7a693",
+            "#010101"
+        ],
+        "closest_colors": [
+            "silver",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/floette.png"
+    },
+    {
+        "id": 40,
+        "properties": {
+            "name": "gulpin",
+            "type1": "Poison",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/gulpin.png"
+    },
+    {
+        "id": 41,
+        "properties": {
+            "name": "bouffalant",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010100",
+            "#807059"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/bouffalant.png"
+    },
+    {
+        "id": 42,
+        "properties": {
+            "name": "beartic",
+            "type1": "Ice",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/beartic.png"
+    },
+    {
+        "id": 43,
+        "properties": {
+            "name": "golurk",
+            "type1": "Ground",
+            "type2": "Ghost"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#77a198",
+            "#010101"
+        ],
+        "closest_colors": [
+            "gray",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/golurk.png"
+    },
+    {
+        "id": 44,
+        "properties": {
+            "name": "porygon",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010001",
+            "#7fa6ae"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/porygon.png"
+    },
+    {
+        "id": 45,
+        "properties": {
+            "name": "arceus",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#c1c0af"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/arceus.png"
+    },
+    {
+        "id": 46,
+        "properties": {
+            "name": "exploud",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#9d9baf"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/exploud.png"
+    },
+    {
+        "id": 47,
+        "properties": {
+            "name": "simipour",
+            "type1": "Water",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000100",
+            "#89bfb6"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/simipour.png"
+    },
+    {
+        "id": 48,
+        "properties": {
+            "name": "onix",
+            "type1": "Rock",
+            "type2": "Ground"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/onix.png"
+    },
+    {
+        "id": 49,
+        "properties": {
+            "name": "zweilous",
+            "type1": "Dark",
+            "type2": "Dragon"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#66676f"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/zweilous.png"
+    },
+    {
+        "id": 50,
+        "properties": {
+            "name": "bewear",
+            "type1": "Normal",
+            "type2": "Fighting"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fdfbfb",
+            "#575752"
+        ],
+        "closest_colors": [
+            "white",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/bewear.jpg"
+    },
+    {
+        "id": 51,
+        "properties": {
+            "name": "gorebyss",
+            "type1": "Water",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/gorebyss.png"
+    },
+    {
+        "id": 52,
+        "properties": {
+            "name": "haxorus",
+            "type1": "Dragon",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#86753b"
+        ],
+        "closest_colors": [
+            "black",
+            "olive"
+        ],
+        "tags": [],
+        "path": "images/images/haxorus.png"
+    },
+    {
+        "id": 53,
+        "properties": {
+            "name": "zubat",
+            "type1": "Poison",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#7a6b8d"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/zubat.png"
+    },
+    {
+        "id": 54,
+        "properties": {
+            "name": "wishiwashi-solo",
+            "type1": "Water",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#ffffff",
+            "#93a2b2"
+        ],
+        "closest_colors": [
+            "white",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/wishiwashi-solo.jpg"
+    },
+    {
+        "id": 55,
+        "properties": {
+            "name": "barbaracle",
+            "type1": "Rock",
+            "type2": "Water"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#999589"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/barbaracle.png"
+    },
+    {
+        "id": 56,
+        "properties": {
+            "name": "espurr",
+            "type1": "Psychic",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/espurr.png"
+    },
+    {
+        "id": 57,
+        "properties": {
+            "name": "lairon",
+            "type1": "Steel",
+            "type2": "Rock"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/lairon.png"
+    },
+    {
+        "id": 58,
+        "properties": {
+            "name": "goldeen",
+            "type1": "Water",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#cbc3be"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/goldeen.png"
+    },
+    {
+        "id": 59,
+        "properties": {
+            "name": "wooper",
+            "type1": "Water",
+            "type2": "Ground"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#9eb6ca"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/wooper.png"
+    },
+    {
+        "id": 60,
+        "properties": {
+            "name": "kangaskhan",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#b29b7c",
+            "#000100"
+        ],
+        "closest_colors": [
+            "gray",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/kangaskhan.png"
+    },
+    {
+        "id": 61,
+        "properties": {
+            "name": "sandshrew",
+            "type1": "Ground",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#d8c884"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/sandshrew.png"
+    },
+    {
+        "id": 62,
+        "properties": {
+            "name": "pheromosa",
+            "type1": "Bug",
+            "type2": "Fighting"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fdfdfd",
+            "#9d9b97"
+        ],
+        "closest_colors": [
+            "white",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/pheromosa.jpg"
+    },
+    {
+        "id": 63,
+        "properties": {
+            "name": "lopunny",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010100",
+            "#c8ab7f"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/lopunny.png"
+    },
+    {
+        "id": 64,
+        "properties": {
+            "name": "ralts",
+            "type1": "Psychic",
+            "type2": "Fairy"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000100",
+            "#bac5b3"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/ralts.png"
+    },
+    {
+        "id": 65,
+        "properties": {
+            "name": "delcatty",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#b89998"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/delcatty.png"
+    },
+    {
+        "id": 66,
+        "properties": {
+            "name": "furret",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/furret.png"
+    },
+    {
+        "id": 67,
+        "properties": {
+            "name": "unown",
+            "type1": "Psychic",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/unown.png"
+    },
+    {
+        "id": 68,
+        "properties": {
+            "name": "vileplume",
+            "type1": "Grass",
+            "type2": "Poison"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000101",
+            "#957486"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/vileplume.png"
+    },
+    {
+        "id": 69,
+        "properties": {
+            "name": "pelipper",
+            "type1": "Water",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#d4d0a4",
+            "#010101"
+        ],
+        "closest_colors": [
+            "silver",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/pelipper.png"
+    },
+    {
+        "id": 70,
+        "properties": {
+            "name": "dragalge",
+            "type1": "Poison",
+            "type2": "Dragon"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#a37a79"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/dragalge.png"
+    },
+    {
+        "id": 71,
+        "properties": {
+            "name": "metapod",
+            "type1": "Bug",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/metapod.png"
+    },
+    {
+        "id": 72,
+        "properties": {
+            "name": "poochyena",
+            "type1": "Dark",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/poochyena.png"
+    },
+    {
+        "id": 73,
+        "properties": {
+            "name": "delphox",
+            "type1": "Fire",
+            "type2": "Psychic"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010001",
+            "#b66d53"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/delphox.png"
+    },
+    {
+        "id": 74,
+        "properties": {
+            "name": "lucario",
+            "type1": "Fighting",
+            "type2": "Steel"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#718185"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/lucario.png"
+    },
+    {
+        "id": 75,
+        "properties": {
+            "name": "tangela",
+            "type1": "Grass",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#6d899b",
+            "#010001"
+        ],
+        "closest_colors": [
+            "gray",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/tangela.png"
+    },
+    {
+        "id": 76,
+        "properties": {
+            "name": "lampent",
+            "type1": "Ghost",
+            "type2": "Fire"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/lampent.png"
+    },
+    {
+        "id": 77,
+        "properties": {
+            "name": "chimchar",
+            "type1": "Fire",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010100",
+            "#caa568"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/chimchar.png"
+    },
+    {
+        "id": 78,
+        "properties": {
+            "name": "clauncher",
+            "type1": "Water",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#8cbcc0"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/clauncher.png"
+    },
+    {
+        "id": 79,
+        "properties": {
+            "name": "bidoof",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/bidoof.png"
+    },
+    {
+        "id": 80,
+        "properties": {
+            "name": "lillipup",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#d4b285"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/lillipup.png"
+    },
+    {
+        "id": 81,
+        "properties": {
+            "name": "claydol",
+            "type1": "Ground",
+            "type2": "Psychic"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/claydol.png"
+    },
+    {
+        "id": 82,
+        "properties": {
+            "name": "regirock",
+            "type1": "Rock",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#b1978d",
+            "#000001"
+        ],
+        "closest_colors": [
+            "gray",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/regirock.png"
+    },
+    {
+        "id": 83,
+        "properties": {
+            "name": "scizor",
+            "type1": "Bug",
+            "type2": "Steel"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000101",
+            "#ba6f6e"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/scizor.png"
+    },
+    {
+        "id": 84,
+        "properties": {
+            "name": "venusaur",
+            "type1": "Grass",
+            "type2": "Poison"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#92b0aa"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/venusaur.png"
+    },
+    {
+        "id": 85,
+        "properties": {
+            "name": "meowth",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#c6bdaa"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/meowth.png"
+    },
+    {
+        "id": 86,
+        "properties": {
+            "name": "mime-jr",
+            "type1": "Psychic",
+            "type2": "Fairy"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/mime-jr.png"
+    },
+    {
+        "id": 87,
+        "properties": {
+            "name": "cresselia",
+            "type1": "Psychic",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#dcbbbc",
+            "#010101"
+        ],
+        "closest_colors": [
+            "silver",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/cresselia.png"
+    },
+    {
+        "id": 88,
+        "properties": {
+            "name": "lycanroc-midday",
+            "type1": "Rock",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fefefd",
+            "#958f8c"
+        ],
+        "closest_colors": [
+            "white",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/lycanroc-midday.jpg"
+    },
+    {
+        "id": 89,
+        "properties": {
+            "name": "scatterbug",
+            "type1": "Bug",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/scatterbug.png"
+    },
+    {
+        "id": 90,
+        "properties": {
+            "name": "electabuzz",
+            "type1": "Electric",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010001",
+            "#a99f61"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/electabuzz.png"
+    },
+    {
+        "id": 91,
+        "properties": {
+            "name": "yanmega",
+            "type1": "Bug",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000100",
+            "#8a8472"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/yanmega.png"
+    },
+    {
+        "id": 92,
+        "properties": {
+            "name": "wartortle",
+            "type1": "Water",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#b2bec8",
+            "#010101"
+        ],
+        "closest_colors": [
+            "silver",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/wartortle.png"
+    },
+    {
+        "id": 93,
+        "properties": {
+            "name": "burmy",
+            "type1": "Bug",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/burmy.png"
+    },
+    {
+        "id": 94,
+        "properties": {
+            "name": "goomy",
+            "type1": "Dragon",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/goomy.png"
+    },
+    {
+        "id": 95,
+        "properties": {
+            "name": "torkoal",
+            "type1": "Fire",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000000",
+            "#c3a28c"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/torkoal.png"
+    },
+    {
+        "id": 96,
+        "properties": {
+            "name": "vanillite",
+            "type1": "Ice",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#cdd4de"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/vanillite.png"
+    },
+    {
+        "id": 97,
+        "properties": {
+            "name": "aurorus",
+            "type1": "Rock",
+            "type2": "Ice"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#afc4cf"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/aurorus.png"
+    },
+    {
+        "id": 98,
+        "properties": {
+            "name": "seedot",
+            "type1": "Grass",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/seedot.png"
+    },
+    {
+        "id": 99,
+        "properties": {
+            "name": "combee",
+            "type1": "Bug",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#d2b469"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/combee.png"
+    },
+    {
+        "id": 100,
+        "properties": {
+            "name": "teddiursa",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#d49d5d"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/teddiursa.png"
+    },
+    {
+        "id": 101,
+        "properties": {
+            "name": "lurantis",
+            "type1": "Grass",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fefdfd",
+            "#c68e97"
+        ],
+        "closest_colors": [
+            "white",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/lurantis.jpg"
+    },
+    {
+        "id": 102,
+        "properties": {
+            "name": "genesect",
+            "type1": "Bug",
+            "type2": "Steel"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000100",
+            "#9f859f"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/genesect.png"
+    },
+    {
+        "id": 103,
+        "properties": {
+            "name": "duskull",
+            "type1": "Ghost",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/duskull.png"
+    },
+    {
+        "id": 104,
+        "properties": {
+            "name": "marowak",
+            "type1": "Ground",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#cbbfab"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/marowak.png"
+    },
+    {
+        "id": 105,
+        "properties": {
+            "name": "combusken",
+            "type1": "Fire",
+            "type2": "Fighting"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010100",
+            "#ccab7c"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/combusken.png"
+    },
+    {
+        "id": 106,
+        "properties": {
+            "name": "igglybuff",
+            "type1": "Normal",
+            "type2": "Fairy"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/igglybuff.png"
+    },
+    {
+        "id": 107,
+        "properties": {
+            "name": "rhyhorn",
+            "type1": "Ground",
+            "type2": "Rock"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/rhyhorn.png"
+    },
+    {
+        "id": 108,
+        "properties": {
+            "name": "farfetchd",
+            "type1": "Normal",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#bdb18d"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/farfetchd.png"
+    },
+    {
+        "id": 109,
+        "properties": {
+            "name": "cryogonal",
+            "type1": "Ice",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#7a99b5"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/cryogonal.png"
+    },
+    {
+        "id": 110,
+        "properties": {
+            "name": "throh",
+            "type1": "Fighting",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010001",
+            "#ac9690"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/throh.png"
+    },
+    {
+        "id": 111,
+        "properties": {
+            "name": "clamperl",
+            "type1": "Water",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/clamperl.png"
+    },
+    {
+        "id": 112,
+        "properties": {
+            "name": "spinarak",
+            "type1": "Bug",
+            "type2": "Poison"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#a6af78"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/spinarak.png"
+    },
+    {
+        "id": 113,
+        "properties": {
+            "name": "joltik",
+            "type1": "Bug",
+            "type2": "Electric"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#cec66c"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/joltik.png"
+    },
+    {
+        "id": 114,
+        "properties": {
+            "name": "dusknoir",
+            "type1": "Ghost",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000001",
+            "#888574"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/dusknoir.png"
+    },
+    {
+        "id": 115,
+        "properties": {
+            "name": "azurill",
+            "type1": "Normal",
+            "type2": "Fairy"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010100",
+            "#418db8"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/azurill.png"
+    },
+    {
+        "id": 116,
+        "properties": {
+            "name": "plusle",
+            "type1": "Electric",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#cf9785"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/plusle.png"
+    },
+    {
+        "id": 117,
+        "properties": {
+            "name": "gyarados",
+            "type1": "Water",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010001",
+            "#87a1a7"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/gyarados.png"
+    },
+    {
+        "id": 118,
+        "properties": {
+            "name": "pinsir",
+            "type1": "Bug",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/pinsir.png"
+    },
+    {
+        "id": 119,
+        "properties": {
+            "name": "stakataka",
+            "type1": "Rock",
+            "type2": "Steel"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fefefe",
+            "#6f7274"
+        ],
+        "closest_colors": [
+            "white",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/stakataka.jpg"
+    },
+    {
+        "id": 120,
+        "properties": {
+            "name": "sawk",
+            "type1": "Fighting",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000101",
+            "#6b8896"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/sawk.png"
+    },
+    {
+        "id": 121,
+        "properties": {
+            "name": "crustle",
+            "type1": "Bug",
+            "type2": "Rock"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010000",
+            "#856e53"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/crustle.png"
+    },
+    {
+        "id": 122,
+        "properties": {
+            "name": "charjabug",
+            "type1": "Bug",
+            "type2": "Electric"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fffffe",
+            "#6a8153"
+        ],
+        "closest_colors": [
+            "white",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/charjabug.jpg"
+    },
+    {
+        "id": 123,
+        "properties": {
+            "name": "escavalier",
+            "type1": "Bug",
+            "type2": "Steel"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#c69992"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/escavalier.png"
+    },
+    {
+        "id": 124,
+        "properties": {
+            "name": "avalugg",
+            "type1": "Ice",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#8dbad5"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/avalugg.png"
+    },
+    {
+        "id": 125,
+        "properties": {
+            "name": "yungoos",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fffffe",
+            "#a9896e"
+        ],
+        "closest_colors": [
+            "white",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/yungoos.jpg"
+    },
+    {
+        "id": 126,
+        "properties": {
+            "name": "loudred",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#9e95a3"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/loudred.png"
+    },
+    {
+        "id": 127,
+        "properties": {
+            "name": "kommo-o",
+            "type1": "Dragon",
+            "type2": "Fighting"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fefefd",
+            "#888372"
+        ],
+        "closest_colors": [
+            "white",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/kommo-o.jpg"
+    },
+    {
+        "id": 128,
+        "properties": {
+            "name": "umbreon",
+            "type1": "Dark",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/umbreon.png"
+    },
+    {
+        "id": 129,
+        "properties": {
+            "name": "pikachu",
+            "type1": "Electric",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/pikachu.png"
+    },
+    {
+        "id": 130,
+        "properties": {
+            "name": "ponyta",
+            "type1": "Fire",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#ddbd7a"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/ponyta.png"
+    },
+    {
+        "id": 131,
+        "properties": {
+            "name": "heatran",
+            "type1": "Fire",
+            "type2": "Steel"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000001",
+            "#9e847a"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/heatran.png"
+    },
+    {
+        "id": 132,
+        "properties": {
+            "name": "metang",
+            "type1": "Steel",
+            "type2": "Psychic"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000001",
+            "#628998"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/metang.png"
+    },
+    {
+        "id": 133,
+        "properties": {
+            "name": "gardevoir",
+            "type1": "Psychic",
+            "type2": "Fairy"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#ccd8ca"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/gardevoir.png"
+    },
+    {
+        "id": 134,
+        "properties": {
+            "name": "piloswine",
+            "type1": "Ice",
+            "type2": "Ground"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/piloswine.png"
+    },
+    {
+        "id": 135,
+        "properties": {
+            "name": "geodude",
+            "type1": "Rock",
+            "type2": "Ground"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/geodude.png"
+    },
+    {
+        "id": 136,
+        "properties": {
+            "name": "baltoy",
+            "type1": "Ground",
+            "type2": "Psychic"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/baltoy.png"
+    },
+    {
+        "id": 137,
+        "properties": {
+            "name": "ribombee",
+            "type1": "Bug",
+            "type2": "Fairy"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fdfdfc",
+            "#968b79"
+        ],
+        "closest_colors": [
+            "white",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/ribombee.jpg"
+    },
+    {
+        "id": 138,
+        "properties": {
+            "name": "slugma",
+            "type1": "Fire",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#da835c"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/slugma.png"
+    },
+    {
+        "id": 139,
+        "properties": {
+            "name": "raikou",
+            "type1": "Electric",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#cdbe8b"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/raikou.png"
+    },
+    {
+        "id": 140,
+        "properties": {
+            "name": "chesnaught",
+            "type1": "Grass",
+            "type2": "Fighting"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#aca88e"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/chesnaught.png"
+    },
+    {
+        "id": 141,
+        "properties": {
+            "name": "horsea",
+            "type1": "Water",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#a2c6cc"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/horsea.png"
+    },
+    {
+        "id": 142,
+        "properties": {
+            "name": "nidoqueen",
+            "type1": "Poison",
+            "type2": "Ground"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#96acb8"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/nidoqueen.png"
+    },
+    {
+        "id": 143,
+        "properties": {
+            "name": "rhyperior",
+            "type1": "Ground",
+            "type2": "Rock"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010000",
+            "#a57862"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/rhyperior.png"
+    },
+    {
+        "id": 144,
+        "properties": {
+            "name": "koffing",
+            "type1": "Poison",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/koffing.png"
+    },
+    {
+        "id": 145,
+        "properties": {
+            "name": "shuckle",
+            "type1": "Bug",
+            "type2": "Rock"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000001",
+            "#d8a95c"
+        ],
+        "closest_colors": [
+            "black",
+            "orange"
+        ],
+        "tags": [],
+        "path": "images/images/shuckle.png"
+    },
+    {
+        "id": 146,
+        "properties": {
+            "name": "turtonator",
+            "type1": "Fire",
+            "type2": "Dragon"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fefefe",
+            "#a7735c"
+        ],
+        "closest_colors": [
+            "white",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/turtonator.jpg"
+    },
+    {
+        "id": 147,
+        "properties": {
+            "name": "cubone",
+            "type1": "Ground",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/cubone.png"
+    },
+    {
+        "id": 148,
+        "properties": {
+            "name": "hakamo-o",
+            "type1": "Dragon",
+            "type2": "Fighting"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fefefd",
+            "#918f7b"
+        ],
+        "closest_colors": [
+            "white",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/hakamo-o.jpg"
+    },
+    {
+        "id": 149,
+        "properties": {
+            "name": "swinub",
+            "type1": "Ice",
+            "type2": "Ground"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/swinub.png"
+    },
+    {
+        "id": 150,
+        "properties": {
+            "name": "talonflame",
+            "type1": "Fire",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#9a857d"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/talonflame.png"
+    },
+    {
+        "id": 151,
+        "properties": {
+            "name": "whimsicott",
+            "type1": "Grass",
+            "type2": "Fairy"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/whimsicott.png"
+    },
+    {
+        "id": 152,
+        "properties": {
+            "name": "munna",
+            "type1": "Psychic",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/munna.png"
+    },
+    {
+        "id": 153,
+        "properties": {
+            "name": "jellicent",
+            "type1": "Water",
+            "type2": "Ghost"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#b5d6e9"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/jellicent.png"
+    },
+    {
+        "id": 154,
+        "properties": {
+            "name": "grubbin",
+            "type1": "Bug",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#ffffff",
+            "#b69f82"
+        ],
+        "closest_colors": [
+            "white",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/grubbin.jpg"
+    },
+    {
+        "id": 155,
+        "properties": {
+            "name": "cinccino",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/cinccino.png"
+    },
+    {
+        "id": 156,
+        "properties": {
+            "name": "luxray",
+            "type1": "Electric",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000100",
+            "#5a5a53"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/luxray.png"
+    },
+    {
+        "id": 157,
+        "properties": {
+            "name": "bronzong",
+            "type1": "Steel",
+            "type2": "Psychic"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000100",
+            "#6b9e9e"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/bronzong.png"
+    },
+    {
+        "id": 158,
+        "properties": {
+            "name": "skiploom",
+            "type1": "Grass",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#8bba40"
+        ],
+        "closest_colors": [
+            "black",
+            "olive"
+        ],
+        "tags": [],
+        "path": "images/images/skiploom.png"
+    },
+    {
+        "id": 159,
+        "properties": {
+            "name": "swirlix",
+            "type1": "Fairy",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/swirlix.png"
+    },
+    {
+        "id": 160,
+        "properties": {
+            "name": "remoraid",
+            "type1": "Water",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/remoraid.png"
+    },
+    {
+        "id": 161,
+        "properties": {
+            "name": "dwebble",
+            "type1": "Bug",
+            "type2": "Rock"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/dwebble.png"
+    },
+    {
+        "id": 162,
+        "properties": {
+            "name": "skuntank",
+            "type1": "Poison",
+            "type2": "Dark"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000001",
+            "#8e7c88"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/skuntank.png"
+    },
+    {
+        "id": 163,
+        "properties": {
+            "name": "togedemaru",
+            "type1": "Electric",
+            "type2": "Steel"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#ffffff",
+            "#bbbcaf"
+        ],
+        "closest_colors": [
+            "white",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/togedemaru.jpg"
+    },
+    {
+        "id": 164,
+        "properties": {
+            "name": "articuno",
+            "type1": "Ice",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#80abc6"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/articuno.png"
+    },
+    {
+        "id": 165,
+        "properties": {
+            "name": "cleffa",
+            "type1": "Fairy",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/cleffa.png"
+    },
+    {
+        "id": 166,
+        "properties": {
+            "name": "musharna",
+            "type1": "Psychic",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000001",
+            "#dab1c4"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/musharna.png"
+    },
+    {
+        "id": 167,
+        "properties": {
+            "name": "weezing",
+            "type1": "Poison",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#a999a2",
+            "#010101"
+        ],
+        "closest_colors": [
+            "silver",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/weezing.png"
+    },
+    {
+        "id": 168,
+        "properties": {
+            "name": "pancham",
+            "type1": "Fighting",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/pancham.png"
+    },
+    {
+        "id": 169,
+        "properties": {
+            "name": "vullaby",
+            "type1": "Dark",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/vullaby.png"
+    },
+    {
+        "id": 170,
+        "properties": {
+            "name": "eevee",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/eevee.png"
+    },
+    {
+        "id": 171,
+        "properties": {
+            "name": "lileep",
+            "type1": "Rock",
+            "type2": "Grass"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#ad969e"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/lileep.png"
+    },
+    {
+        "id": 172,
+        "properties": {
+            "name": "hippowdon",
+            "type1": "Ground",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/hippowdon.png"
+    },
+    {
+        "id": 173,
+        "properties": {
+            "name": "magearna",
+            "type1": "Steel",
+            "type2": "Fairy"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fefefd",
+            "#b4aca3"
+        ],
+        "closest_colors": [
+            "white",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/magearna.jpg"
+    },
+    {
+        "id": 174,
+        "properties": {
+            "name": "pichu",
+            "type1": "Electric",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/pichu.png"
+    },
+    {
+        "id": 175,
+        "properties": {
+            "name": "whismur",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/whismur.png"
+    },
+    {
+        "id": 176,
+        "properties": {
+            "name": "conkeldurr",
+            "type1": "Fighting",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000101",
+            "#a29390"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/conkeldurr.png"
+    },
+    {
+        "id": 177,
+        "properties": {
+            "name": "breloom",
+            "type1": "Grass",
+            "type2": "Fighting"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000101",
+            "#a2a288"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/breloom.png"
+    },
+    {
+        "id": 178,
+        "properties": {
+            "name": "luxio",
+            "type1": "Electric",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000101",
+            "#6d7a71"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/luxio.png"
+    },
+    {
+        "id": 179,
+        "properties": {
+            "name": "aegislash-blade",
+            "type1": "Steel",
+            "type2": "Ghost"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#a39880",
+            "#000000"
+        ],
+        "closest_colors": [
+            "gray",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/aegislash-blade.png"
+    },
+    {
+        "id": 180,
+        "properties": {
+            "name": "decidueye",
+            "type1": "Grass",
+            "type2": "Ghost"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fefefd",
+            "#aca985"
+        ],
+        "closest_colors": [
+            "white",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/decidueye.jpg"
+    },
+    {
+        "id": 181,
+        "properties": {
+            "name": "blacephalon",
+            "type1": "Fire",
+            "type2": "Ghost"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#94989b",
+            "#fefefe"
+        ],
+        "closest_colors": [
+            "gray",
+            "white"
+        ],
+        "tags": [],
+        "path": "images/images/blacephalon.jpg"
+    },
+    {
+        "id": 182,
+        "properties": {
+            "name": "shinx",
+            "type1": "Electric",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#8badaa"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/shinx.png"
+    },
+    {
+        "id": 183,
+        "properties": {
+            "name": "sharpedo",
+            "type1": "Water",
+            "type2": "Dark"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000000",
+            "#5b8ca9"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/sharpedo.png"
+    },
+    {
+        "id": 184,
+        "properties": {
+            "name": "swoobat",
+            "type1": "Psychic",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000001",
+            "#6d7c8c"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/swoobat.png"
+    },
+    {
+        "id": 185,
+        "properties": {
+            "name": "seviper",
+            "type1": "Poison",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#6c7473",
+            "#000001"
+        ],
+        "closest_colors": [
+            "gray",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/seviper.png"
+    },
+    {
+        "id": 186,
+        "properties": {
+            "name": "vanillish",
+            "type1": "Ice",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#b3c5d9"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/vanillish.png"
+    },
+    {
+        "id": 187,
+        "properties": {
+            "name": "sunkern",
+            "type1": "Grass",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010100",
+            "#a09a52"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/sunkern.png"
+    },
+    {
+        "id": 188,
+        "properties": {
+            "name": "mismagius",
+            "type1": "Ghost",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#8c6490"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/mismagius.png"
+    },
+    {
+        "id": 189,
+        "properties": {
+            "name": "roserade",
+            "type1": "Grass",
+            "type2": "Poison"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000101",
+            "#9da4a7"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/roserade.png"
+    },
+    {
+        "id": 190,
+        "properties": {
+            "name": "vikavolt",
+            "type1": "Bug",
+            "type2": "Electric"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#fdfdfd",
+            "#4d7579"
+        ],
+        "closest_colors": [
+            "white",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/vikavolt.jpg"
+    },
+    {
+        "id": 191,
+        "properties": {
+            "name": "piplup",
+            "type1": "Water",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#8caebe"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/piplup.png"
+    },
+    {
+        "id": 192,
+        "properties": {
+            "name": "cubchoo",
+            "type1": "Ice",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/cubchoo.png"
+    },
+    {
+        "id": 193,
+        "properties": {
+            "name": "seaking",
+            "type1": "Water",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#d2b3a6",
+            "#010101"
+        ],
+        "closest_colors": [
+            "silver",
+            "black"
+        ],
+        "tags": [],
+        "path": "images/images/seaking.png"
+    },
+    {
+        "id": 194,
+        "properties": {
+            "name": "magneton",
+            "type1": "Electric",
+            "type2": "Steel"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010001",
+            "#97a2a4"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/magneton.png"
+    },
+    {
+        "id": 195,
+        "properties": {
+            "name": "darumaka",
+            "type1": "Fire",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#000001",
+            "#ba6e59"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/darumaka.png"
+    },
+    {
+        "id": 196,
+        "properties": {
+            "name": "zapdos",
+            "type1": "Electric",
+            "type2": "Flying"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010101",
+            "#cab979"
+        ],
+        "closest_colors": [
+            "black",
+            "silver"
+        ],
+        "tags": [],
+        "path": "images/images/zapdos.png"
+    },
+    {
+        "id": 197,
+        "properties": {
+            "name": "porygon2",
+            "type1": "Normal",
+            "type2": "None"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": [
+            "#010100",
+            "#a58ba2"
+        ],
+        "closest_colors": [
+            "black",
+            "gray"
+        ],
+        "tags": [],
+        "path": "images/images/porygon2.png"
+    },
+    {
+        "id": 198,
+        "properties": {
+            "name": "nincada",
+            "type1": "Bug",
+            "type2": "Ground"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/nincada.png"
+    },
+    {
+        "id": 199,
+        "properties": {
+            "name": "kakuna",
+            "type1": "Bug",
+            "type2": "Poison"
+        },
+        "size": [
+            120,
+            120
+        ],
+        "colors": "",
+        "closest_colors": [],
+        "tags": [],
+        "path": "images/images/kakuna.png"
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

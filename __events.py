@@ -16,8 +16,7 @@ async def run(loop):
 
     # Use queue named 'workers' for distributing requests
     # among subscribers.
-    await nc.subscribe("s3_file_update", "workers", help_request)
-
+    await nc.subscribe("metadata_updated", "workers", help_request)
     print("Listening for requests on 's3_file_update' subject...")
 
 if __name__ == '__main__':

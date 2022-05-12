@@ -10,6 +10,8 @@ import math
 from sklearn.cluster import KMeans
 import webcolors
 import multiprocessing as mp
+import asyncio
+from nats.aio.client import Client as NATS
 cpu_count = mp.cpu_count()
 
 
@@ -39,10 +41,6 @@ def get_closest_color(rgb_triplet):
         min_colours[(rd + gd + bd)] = name
     return min_colours[min(min_colours.keys())]
 
-df = pd.read_csv('images/pokemon.csv', sep=',',header=None, skiprows=1)
-df.replace(np.nan, "")
-json_data = []
-total = len([name for name in os.listdir("images/images/")])
 
 def explore_image(filename,id):
         f = "images/images/" + filename
@@ -72,12 +70,18 @@ def explore_image(filename,id):
             "path" : f 
         }
         json_data.append(json_metadata)
-        print(json_metadata)
         return json_metadata
+
+
+df = pd.read_csv('images/pokemon.csv', sep=',',header=None, skiprows=1)
+df.replace(np.nan, "")
+json_data = []
+total = len([name for name in os.listdir("images/images/")])
 
 filenames = os.listdir("images/images/")[:200]
 with mp.Pool(processes=cpu_count) as pool:
     array = pool.starmap(explore_image, zip(filenames, range(1,len(filenames))))
     with open("images/metadata/metadata.json", 'w+') as outfile:
         outfile.write(json.dumps(array))
+
 
