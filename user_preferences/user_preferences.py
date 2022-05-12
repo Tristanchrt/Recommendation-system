@@ -24,7 +24,8 @@ def execute_preference():
             "dislikes" : dislike_index,
             "favorites_types" : list(set(tuple(el) for el in favorites_types)),
             "disliked_types" : list(set(tuple(el) for el in disliked_types)),
-            "colors" : list(set(np.array(favorites_colors).ravel()))
+            "colors" : list(set(np.array(favorites_colors).ravel())),
+            "recommanded": []
         }
         users_preferences.append(user_metadata)
     with open("images/metadata/users_preferences.json", 'w+') as outfile:
