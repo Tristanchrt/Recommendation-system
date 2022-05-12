@@ -59,7 +59,7 @@ _, axs = plt.subplots(2, 5, figsize=(8, 8))
 axs = axs.flatten()
 for ax in axs:
     image = list(dataFrame.sample()['path'].items())[0][1]
-    img = mpimg.imread(image)
+    img = mpimg.imread('/'+image)
     ax.imshow(img)
 plt.show()
 

@@ -49,6 +49,7 @@ def get_closest_color(rgb_triplet):
 
 
 def explore_image(filename,id):
+        print("explore_image :"+str(id))
         f = "/images/images/" + filename
         image = Image.open(f)
         image = image.resize((120,120))
@@ -79,9 +80,7 @@ def explore_image(filename,id):
         return json_metadata
 
 
-def execute_metadata():
-   
-
+def execute_metadata(a,b,c,d):
     filenames = os.listdir("/images/images/")[:200]
     with mp.Pool(processes=cpu_count) as pool:
         array = pool.starmap(explore_image, zip(filenames, range(1,len(filenames))))
