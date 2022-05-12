@@ -1,0 +1,7 @@
+PIL
+matplotlib
+pandas
+numpy
+sklearn
+webcolors
+multiprocessing

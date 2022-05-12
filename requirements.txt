@@ -1,15 +1,12 @@
 numpy
-matplotlib
-pandas
+# matplotlib
+# pandas
 squarify
 webcolors
-progressbar
 kaggle
 sklearn
 watchdog
-asyncio
-nats
-PIL
 sklearn
 webcolors
 squarify
+pika

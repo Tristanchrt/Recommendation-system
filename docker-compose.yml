@@ -1,4 +1,4 @@
-version: "3.3"
+version: "3.7"
 services:
 
   rabbitmq-message:
@@ -8,26 +8,31 @@ services:
       - '5672:5672'
       - '15672:15672'
 
-  # observer:
-  #   image
-  
-  # requirements:
-  #   image: python:3.7-alpine
-  #   volumes:
-  #     - requirements:/usr/local/lib/python3.7/site-packages
-  #     - requirements.txt:/project
-  #   working_dir: /project
-  #   command: pip install -r requirements.txt
+  requirements:
+    build: .
+    working_dir: /project
+    volumes:
+      - requirements:/usr/local/lib/python3.7/site-packages
 
-  # data:
-  #   image: python:3.7
-  #   volumes:
-  #     - requirements:/usr/local/lib/python3.7/site-packages
-  #     - __data.py:/project
-  #   working_dir: /project
-  #   command: python3 __data.py
-  #   depends_on:
-  #     - requirements
+  data:
+    image: python:3.7
+    volumes:
+      - requirements:/usr/local/lib/python3.7/site-packages
+      - .:/project
+    working_dir: /project
+    command: python3 __data.py
+    depends_on:
+      - requirements
+
+
+networks:
+  nats:
+    external:
+      name: nats
+
+volumes:
+  images: {}
+  requirements: {}
   # metadata:
   #   image: python:3.7
   #   volumes:
@@ -73,13 +78,3 @@ services:
   #   command: python3 __events.py
   #   depends_on:
   #     - requirements
-
-
-# networks:
-#   nats:
-#     external:
-#       name: nats
-
-# volumes:
-#   images: {}
-#   requirements: {}

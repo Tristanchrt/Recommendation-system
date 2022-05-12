@@ -10,8 +10,6 @@ import math
 from sklearn.cluster import KMeans
 import webcolors
 import multiprocessing as mp
-import asyncio
-from nats.aio.client import Client as NATS
 cpu_count = mp.cpu_count()
 
 
