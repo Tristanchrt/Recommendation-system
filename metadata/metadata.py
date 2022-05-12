@@ -17,7 +17,8 @@ cpu_count = mp.cpu_count()
 
 json_data = []
 total = len([name for name in os.listdir("/images/images/")])
-
+df = pd.read_csv('/images/pokemon.csv', sep=',',header=None, skiprows=1)
+df.replace(np.nan, "")
 
 def main_colors(imgfile):
     numarray = np.array(imgfile.getdata(), np.uint8)
@@ -79,8 +80,7 @@ def explore_image(filename,id):
 
 
 def execute_metadata():
-    df = pd.read_csv('/images/pokemon.csv', sep=',',header=None, skiprows=1)
-    df.replace(np.nan, "")
+   
 
     filenames = os.listdir("/images/images/")[:200]
     with mp.Pool(processes=cpu_count) as pool:
