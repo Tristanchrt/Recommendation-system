@@ -4,7 +4,7 @@ from watchdog.events import FileSystemEventHandler
 import pika
 import os
 class Watcher:
-    DIRECTORY_TO_WATCH = "./images"
+    DIRECTORY_TO_WATCH = "/images"
 
     def __init__(self):
         self.observer = Observer()

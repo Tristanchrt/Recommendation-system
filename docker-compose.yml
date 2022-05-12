@@ -2,16 +2,21 @@ version: "3.7"
 services:
 
   rabbitmq-message:
-    container_name: message_broker
     image: 'rabbitmq:3.6-management-alpine'
     ports:
       - '5672:5672'
       - '15672:15672'
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:15672"]
+        interval: 30s
+        timeout: 10s
+        retries: 5
     networks:
       - message_broker
   
   watcher:
     build: watcher/.
+    restart: on-failure
     environment:
       - MQ_HOST=rabbitmq-message
     volumes:
@@ -23,6 +28,7 @@ services:
 
   download:
     build: download/.
+    restart: on-failure
     environment:
       - MQ_HOST=rabbitmq-message
     volumes:
@@ -35,6 +41,7 @@ services:
 
   metadata:
     build: metadata/.
+    restart: on-failure
     environment:
       - MQ_HOST=rabbitmq-message
     volumes:
@@ -46,6 +53,7 @@ services:
 
   users_preferences:
     build: user_preferences/.
+    restart: on-failure
     environment:
       - MQ_HOST=rabbitmq-message
     volumes:
@@ -58,6 +66,7 @@ services:
 
   recommandation:
     build: recommandation/.
+    restart: on-failure
     environment:
       - MQ_HOST=rabbitmq-message
     volumes:
