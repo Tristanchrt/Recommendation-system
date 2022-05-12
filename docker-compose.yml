@@ -1,85 +1,85 @@
 version: "3.3"
 services:
-  nats:
-    image: nats
+
+  rabbitmq-message:
+    container_name: message_broker
+    image: 'rabbitmq:3.6-management-alpine'
     ports:
-      - "8222:8222"
-      - 4222
-    command: "--cluster_name NATS --cluster nats://0.0.0.0:6222 --http_port 8222 "
-    networks: ["nats"]
+      - '5672:5672'
+      - '15672:15672'
 
   # observer:
   #   image
   
-  requirements:
-    image: python:3.7-alpine
-    volumes:
-      - requirements:/usr/local/lib/python3.7/site-packages
-      - requirements.txt:/project
-    working_dir: /project
-    command: pip install -r requirements.txt
+  # requirements:
+  #   image: python:3.7-alpine
+  #   volumes:
+  #     - requirements:/usr/local/lib/python3.7/site-packages
+  #     - requirements.txt:/project
+  #   working_dir: /project
+  #   command: pip install -r requirements.txt
 
-  data:
-    image: python:3.7
-    volumes:
-      - requirements:/usr/local/lib/python3.7/site-packages
-      - __data.py:/project
-    working_dir: /project
-    command: python3 __data.py
-    depends_on:
-      - requirements
-  metadata:
-    image: python:3.7
-    volumes:
-      - requirements:/usr/local/lib/python3.7/site-packages
-      - __metadata.py:/project
-    working_dir: /project
-    command: python3 __metadata.py
-    depends_on:
-      - requirements
-  recommandation:
-    image: python:3.7
-    volumes:
-      - requirements:/usr/local/lib/python3.7/site-packages
-      - __recommandation.py:/project
-    working_dir: /project
-    command: python3 __recommandation.py
-    depends_on:
-      - requirements
-  stats:
-    image: python:3.7
-    volumes:
-      - requirements:/usr/local/lib/python3.7/site-packages
-      - __stats.py:/project
-    working_dir: /project
-    command: python3 __stats.py
-    depends_on:
-      - requirements
-  users_preferences:
-    image: python:3.7
-    volumes:
-      - requirements:/usr/local/lib/python3.7/site-packages
-      - __users_preferences.py:/project
-    working_dir: /project
-    command: python3 __users_preferences.py
-    depends_on:
-      - requirements
-  events:
-    image: python:3.7
-    volumes:
-      - requirements:/usr/local/lib/python3.7/site-packages
-      - __events.py:/project
-    working_dir: /project
-    command: python3 __events.py
-    depends_on:
-      - requirements
+  # data:
+  #   image: python:3.7
+  #   volumes:
+  #     - requirements:/usr/local/lib/python3.7/site-packages
+  #     - __data.py:/project
+  #   working_dir: /project
+  #   command: python3 __data.py
+  #   depends_on:
+  #     - requirements
+  # metadata:
+  #   image: python:3.7
+  #   volumes:
+  #     - requirements:/usr/local/lib/python3.7/site-packages
+  #     - __metadata.py:/project
+  #   working_dir: /project
+  #   command: python3 __metadata.py
+  #   depends_on:
+  #     - requirements
+  # recommandation:
+  #   image: python:3.7
+  #   volumes:
+  #     - requirements:/usr/local/lib/python3.7/site-packages
+  #     - __recommandation.py:/project
+  #   working_dir: /project
+  #   command: python3 __recommandation.py
+  #   depends_on:
+  #     - requirements
+  # stats:
+  #   image: python:3.7
+  #   volumes:
+  #     - requirements:/usr/local/lib/python3.7/site-packages
+  #     - __stats.py:/project
+  #   working_dir: /project
+  #   command: python3 __stats.py
+  #   depends_on:
+  #     - requirements
+  # users_preferences:
+  #   image: python:3.7
+  #   volumes:
+  #     - requirements:/usr/local/lib/python3.7/site-packages
+  #     - __users_preferences.py:/project
+  #   working_dir: /project
+  #   command: python3 __users_preferences.py
+  #   depends_on:
+  #     - requirements
+  # events:
+  #   image: python:3.7
+  #   volumes:
+  #     - requirements:/usr/local/lib/python3.7/site-packages
+  #     - __events.py:/project
+  #   working_dir: /project
+  #   command: python3 __events.py
+  #   depends_on:
+  #     - requirements
 
 
-networks:
-  nats:
-    external:
-      name: nats
+# networks:
+#   nats:
+#     external:
+#       name: nats
 
-volumes:
-  images: {}
-  requirements: {}
+# volumes:
+#   images: {}
+#   requirements: {}

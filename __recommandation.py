@@ -5,8 +5,7 @@ import json
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.image as mpimg
-import asyncio
-from nats.aio.client import Client as NATS
+import pika
 
 def execute_recommandation():
     print("started")
@@ -104,52 +103,33 @@ def execute_recommandation():
         print(df_u.iloc[i]['favorites'])
         print('\n\n')
 
-    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-def help_request(msg):
-        subject = msg.subject
-        reply = msg.reply
-        data = msg.data.decode()
-        print("Received a message on '{subject} {reply}': {data}".format(
-            subject=subject, reply=reply, data=data))
+# def help_request(msg):
+#         subject = msg.subject
+#         reply = msg.reply
+#         data = msg.data.decode()
+#         print("Received a message on '{subject} {reply}': {data}".format(
+#             subject=subject, reply=reply, data=data))
         
+def help_request(ch, method, properties, body):
+    print(f"Received message : {method} & {properties} & {body}")
 
+def run():
+    HOSTNAME = '0.0.0.0'
+    PORT = 5672
+    QUEUE = 'images_updated'
 
+    connection_params = pika.ConnectionParameters(host=HOSTNAME, port=PORT, socket_timeout=5)
+    connection = pika.BlockingConnection(connection_params)
+    channel = connection.channel()
 
+    channel.queue_declare(queue=QUEUE)
 
+    channel.basic_consume(queue=QUEUE,
+                      auto_ack=True,
+                      on_message_callback=help_request)
 
-async def run(loop):
-    nc = NATS()
-
-    await nc.connect("127.0.0.1", loop=loop)
-        
-
-    # Use queue named 'workers' for distributing requests
-    # among subscribers.
-    await nc.subscribe("metadata_updated", "workers", help_request)
-
-    print("Listening for requests on 'metadata_updated' subject...")
+    channel.start_consuming()
 
 if __name__ == '__main__':
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(run(loop))
-    loop.run_forever()
-    loop.close()
+    run()

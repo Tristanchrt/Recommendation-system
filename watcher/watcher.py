@@ -1,8 +1,7 @@
 import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-import asyncio
-from nats.aio.client import Client as NATS
+import pika
 
 class Watcher:
     DIRECTORY_TO_WATCH = "./images"
@@ -24,9 +23,8 @@ class Watcher:
         self.observer.join()
 
 
-
-
 class Handler(FileSystemEventHandler):
+
 
     @staticmethod
     def on_any_event(event):  
@@ -35,33 +33,37 @@ class Handler(FileSystemEventHandler):
 
         elif event.event_type == 'created':
             if "/metadata" in event.src_path:
-                nc.publish("metadata_updated", b"")
+                channel.queue_declare(queue='metadata_updated')
+                channel.basic_publish(exchange='', routing_key='metadata_updated', body='')
             elif "/images/images" in event.src_path:
-                nc.publish("images_updated",b"")
+                channel.queue_declare(queue='images_updated')
+                channel.basic_publish(exchange='', routing_key='images_updated', body='')
             # Take any action here when a file is first created.
             print("Received created event - %s." % event.src_path)
 
         elif event.event_type == 'modified':
             if "/metadata" in event.src_path:
-                nc.publish("metadata_updated", b"")
+                channel.queue_declare(queue='metadata_updated')
+                channel.basic_publish(exchange='', routing_key='metadata_updated', body='')
             elif "/images/images" in event.src_path:
-                nc.publish("images_updated", b"")
+                channel.queue_declare(queue='image_updated')
+                channel.basic_publish(exchange='', routing_key='images_updated', body='')
+
             # Taken any action here when a file is modified.
             print("Received modified event - %s." % event.src_path)
 
-async def main(loop):
-    
-    await nc.connect("127.0.0.1", loop=loop)
+def main():
     w = Watcher()
     w.run()
 
 if __name__ == '__main__':
-    nc = NATS()
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(main(loop))
-    loop.run_forever()
-    loop.close()
 
+    HOSTNAME = '0.0.0.0'
+    PORT = 5672
+    
+    connection_params = pika.ConnectionParameters(host=HOSTNAME, port=PORT, socket_timeout=5)
+    connection = pika.BlockingConnection(connection_params)
+    channel = connection.channel()
+    
+    main()
 
-
-   

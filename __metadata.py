@@ -42,6 +42,7 @@ def get_closest_color(rgb_triplet):
     return min_colours[min(min_colours.keys())]
 
 
+
 def explore_image(filename,id):
         f = "images/images/" + filename
         image = Image.open(f)
