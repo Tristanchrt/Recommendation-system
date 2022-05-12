@@ -8,11 +8,16 @@ services:
       - '5672:5672'
       - '15672:15672'
 
-  requirements:
-    build: .
-    working_dir: /project
+  notebook:
+    image: jupyter/datascience-notebook
+    #Paramètres du port("Hôte: Container")
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
     volumes:
-      - requirements:/usr/local/lib/python3.7/site-packages
+      - .:/home/jovyan/work
+    command: start-notebook.sh --NotebookApp.token=''
 
   data:
     image: python:3.7
