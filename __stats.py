@@ -54,7 +54,7 @@ df = pd.DataFrame({'presence':count_by_colors.values(), 'color':count_by_colors.
 squarify.plot(sizes=df['presence'], label=df['color'], alpha=.8 ,color=count_by_colors.keys())
 plt.axis('off')
 plt.show()
-
+    
 _, axs = plt.subplots(2, 5, figsize=(8, 8))
 axs = axs.flatten()
 for ax in axs:
