@@ -109,7 +109,7 @@ def execute_recommandation():
 def run():
     HOSTNAME = os.environ.get('MQ_HOST')
     PORT = 5672
-    QUEUE = ['images_updated', 'metadata_updated']
+    QUEUE = 'metadata_updated'
 
     connection_params = pika.ConnectionParameters(host=HOSTNAME, port=PORT, socket_timeout=5)
     connection = pika.BlockingConnection(connection_params)
