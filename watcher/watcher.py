@@ -63,6 +63,5 @@ if __name__ == '__main__':
     channel.queue_declare(queue='metadata_updated')
     channel.queue_declare(queue='image_updated')
 
-    
     main()
 

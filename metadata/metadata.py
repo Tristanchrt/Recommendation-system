@@ -94,9 +94,12 @@ def run():
     PORT = 5672
     QUEUE = 'images_updated'
 
+
     connection_params = pika.ConnectionParameters(host=HOSTNAME, port=PORT, socket_timeout=5)
     connection = pika.BlockingConnection(connection_params)
     channel = connection.channel()
+
+    channel.queue_declare(queue=QUEUE)
 
     channel.basic_consume(queue=QUEUE,
                       auto_ack=True,

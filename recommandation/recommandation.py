@@ -115,6 +115,8 @@ def run():
     connection = pika.BlockingConnection(connection_params)
     channel = connection.channel()
 
+    channel.queue_declare(queue=QUEUE)
+
     channel.basic_consume(queue=QUEUE,
                       auto_ack=True,
                       on_message_callback=execute_recommandation)

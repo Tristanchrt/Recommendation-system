@@ -44,6 +44,8 @@ def run():
                       auto_ack=True,
                       on_message_callback=execute_preference)
 
+    channel.queue_declare(queue=QUEUE)
+
     channel.start_consuming()
 
 if __name__ == '__main__':
