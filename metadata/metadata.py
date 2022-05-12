@@ -10,7 +10,13 @@ import math
 from sklearn.cluster import KMeans
 import webcolors
 import multiprocessing as mp
+import pika
+
 cpu_count = mp.cpu_count()
+
+
+json_data = []
+total = len([name for name in os.listdir("images/images/")])
 
 
 def main_colors(imgfile):
@@ -72,15 +78,31 @@ def explore_image(filename,id):
         return json_metadata
 
 
-df = pd.read_csv('images/pokemon.csv', sep=',',header=None, skiprows=1)
-df.replace(np.nan, "")
-json_data = []
-total = len([name for name in os.listdir("images/images/")])
+def execute_metadata():
+    df = pd.read_csv('images/pokemon.csv', sep=',',header=None, skiprows=1)
+    df.replace(np.nan, "")
 
-filenames = os.listdir("images/images/")[:200]
-with mp.Pool(processes=cpu_count) as pool:
-    array = pool.starmap(explore_image, zip(filenames, range(1,len(filenames))))
-    with open("images/metadata/metadata.json", 'w+') as outfile:
-        outfile.write(json.dumps(array))
+    filenames = os.listdir("images/images/")[:200]
+    with mp.Pool(processes=cpu_count) as pool:
+        array = pool.starmap(explore_image, zip(filenames, range(1,len(filenames))))
+        with open("images/metadata/metadata.json", 'w+') as outfile:
+            outfile.write(json.dumps(array))
 
 
+def run():
+    HOSTNAME = '0.0.0.0'
+    PORT = 5672
+    QUEUE = ['images_updated', 'metadata_updated']
+
+    connection_params = pika.ConnectionParameters(host=HOSTNAME, port=PORT, socket_timeout=5)
+    connection = pika.BlockingConnection(connection_params)
+    channel = connection.channel()
+
+    channel.basic_consume(queue=QUEUE,
+                      auto_ack=True,
+                      on_message_callback=execute_metadata)
+
+    channel.start_consuming()
+
+if __name__ == '__main__':
+    run()
