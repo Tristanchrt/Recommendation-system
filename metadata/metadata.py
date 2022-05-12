@@ -16,7 +16,7 @@ cpu_count = mp.cpu_count()
 
 
 json_data = []
-total = len([name for name in os.listdir("images/images/")])
+total = len([name for name in os.listdir("/images/images/")])
 
 
 def main_colors(imgfile):
@@ -48,7 +48,7 @@ def get_closest_color(rgb_triplet):
 
 
 def explore_image(filename,id):
-        f = "images/images/" + filename
+        f = "/images/images/" + filename
         image = Image.open(f)
         image = image.resize((120,120))
         metadata = df.loc[df[0] == filename.split(".")[0]]
@@ -79,10 +79,10 @@ def explore_image(filename,id):
 
 
 def execute_metadata():
-    df = pd.read_csv('images/pokemon.csv', sep=',',header=None, skiprows=1)
+    df = pd.read_csv('/images/pokemon.csv', sep=',',header=None, skiprows=1)
     df.replace(np.nan, "")
 
-    filenames = os.listdir("images/images/")[:200]
+    filenames = os.listdir("/images/images/")[:200]
     with mp.Pool(processes=cpu_count) as pool:
         array = pool.starmap(explore_image, zip(filenames, range(1,len(filenames))))
         with open("images/metadata/metadata.json", 'w+') as outfile:
@@ -90,7 +90,7 @@ def execute_metadata():
 
 
 def run():
-    HOSTNAME = '0.0.0.0'
+    HOSTNAME = os.environ.get('MQ_HOST')
     PORT = 5672
     QUEUE = ['images_updated', 'metadata_updated']
 

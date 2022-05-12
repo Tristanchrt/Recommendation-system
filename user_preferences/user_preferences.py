@@ -2,7 +2,7 @@ import random
 import json
 import numpy as np
 import pika
-
+import os
 
 def execute_preference():
     with open("images/metadata/metadata.json", 'r') as images_infos:
@@ -32,7 +32,7 @@ def execute_preference():
 
 
 def run():
-    HOSTNAME = '0.0.0.0'
+    HOSTNAME = os.environ.get('MQ_HOST')
     PORT = 5672
     QUEUE = ['images_updated', 'metadata_updated']
 

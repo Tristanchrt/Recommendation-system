@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.image as mpimg
 import pika
-
+import os
 def execute_recommandation():
     print("started")
     with open('images/metadata/metadata.json') as meta:
@@ -107,7 +107,7 @@ def execute_recommandation():
 #     print(f"Received message : {method} & {properties} & {body}")
 
 def run():
-    HOSTNAME = '0.0.0.0'
+    HOSTNAME = os.environ.get('MQ_HOST')
     PORT = 5672
     QUEUE = ['images_updated', 'metadata_updated']
 

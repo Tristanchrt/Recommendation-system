@@ -7,11 +7,66 @@ services:
     ports:
       - '5672:5672'
       - '15672:15672'
+    networks:
+      - message_broker
+  
+  watcher:
+    build: watcher/.
+    environment:
+      - MQ_HOST=rabbitmq-message
+    volumes:
+      - ./images:/images
+    depends_on:
+      - rabbitmq-message
+    networks:
+      - message_broker
 
   download:
     build: download/.
+    environment:
+      - MQ_HOST=rabbitmq-message
     volumes:
       - ./images:/images
+    depends_on:
+      - rabbitmq-message
+      - watcher
+
+ 
+
+  metadata:
+    build: metadata/.
+    environment:
+      - MQ_HOST=rabbitmq-message
+    volumes:
+      - ./images:/images
+    depends_on:
+      - watcher
+    networks:
+      - message_broker
+
+  users_preferences:
+    build: user_preferences/.
+    environment:
+      - MQ_HOST=rabbitmq-message
+    volumes:
+      - ./images:/images
+    depends_on:
+      - watcher
+    networks:
+      - message_broker
+
+
+  recommandation:
+    build: recommandation/.
+    environment:
+      - MQ_HOST=rabbitmq-message
+    volumes:
+      - ./images:/images
+    depends_on:
+      - watcher
+    networks:
+      - message_broker
+
   notebook:
     image: jupyter/datascience-notebook
     #Paramètres du port("Hôte: Container")
@@ -22,68 +77,16 @@ services:
     volumes:
       - .:/home/jovyan/work
     command: start-notebook.sh --NotebookApp.token=''
-
-  data:
-    image: python:3.7
-    volumes:
-      - requirements:/usr/local/lib/python3.7/site-packages
-      - .:/project
-    working_dir: /project
-    command: python3 __data.py
     depends_on:
-      - requirements
+      - watcher
+
+
 
 
 networks:
-  nats:
+  message_broker:
     external:
-      name: nats
+      name: message_broker
 
 volumes:
   images: {}
-  requirements: {}
-  # metadata:
-  #   image: python:3.7
-  #   volumes:
-  #     - requirements:/usr/local/lib/python3.7/site-packages
-  #     - __metadata.py:/project
-  #   working_dir: /project
-  #   command: python3 __metadata.py
-  #   depends_on:
-  #     - requirements
-  # recommandation:
-  #   image: python:3.7
-  #   volumes:
-  #     - requirements:/usr/local/lib/python3.7/site-packages
-  #     - __recommandation.py:/project
-  #   working_dir: /project
-  #   command: python3 __recommandation.py
-  #   depends_on:
-  #     - requirements
-  # stats:
-  #   image: python:3.7
-  #   volumes:
-  #     - requirements:/usr/local/lib/python3.7/site-packages
-  #     - __stats.py:/project
-  #   working_dir: /project
-  #   command: python3 __stats.py
-  #   depends_on:
-  #     - requirements
-  # users_preferences:
-  #   image: python:3.7
-  #   volumes:
-  #     - requirements:/usr/local/lib/python3.7/site-packages
-  #     - __users_preferences.py:/project
-  #   working_dir: /project
-  #   command: python3 __users_preferences.py
-  #   depends_on:
-  #     - requirements
-  # events:
-  #   image: python:3.7
-  #   volumes:
-  #     - requirements:/usr/local/lib/python3.7/site-packages
-  #     - __events.py:/project
-  #   working_dir: /project
-  #   command: python3 __events.py
-  #   depends_on:
-  #     - requirements

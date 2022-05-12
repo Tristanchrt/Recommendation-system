@@ -2,7 +2,7 @@ import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import pika
-
+import os
 class Watcher:
     DIRECTORY_TO_WATCH = "./images"
 
@@ -54,10 +54,9 @@ def main():
 
 if __name__ == '__main__':
 
-    HOSTNAME = '0.0.0.0'
-    PORT = 5672
+    HOSTNAME = os.environ.get('MQ_HOST')
     
-    connection_params = pika.ConnectionParameters(host=HOSTNAME, port=PORT, socket_timeout=5)
+    connection_params = pika.ConnectionParameters(host=HOSTNAME, socket_timeout=5)
     connection = pika.BlockingConnection(connection_params)
     channel = connection.channel()
 
