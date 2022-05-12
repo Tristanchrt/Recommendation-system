@@ -8,21 +8,10 @@ services:
       - '5672:5672'
       - '15672:15672'
 
-  requirements:
-    build: .
-    working_dir: /project
+  download:
+    build: download/.
     volumes:
-      - requirements:/usr/local/lib/python3.7/site-packages
-
-  data:
-    image: python:3.7
-    volumes:
-      - requirements:/usr/local/lib/python3.7/site-packages
-      - .:/project
-    working_dir: /project
-    command: python3 __data.py
-    depends_on:
-      - requirements
+      - ./images:/images
 
 
 networks:
