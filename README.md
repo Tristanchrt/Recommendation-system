@@ -4,6 +4,10 @@ L’objectif de ce projet est de recommander des images en fonction des préfér
 caractéristiques des images sur un jeu de données défini. Le programme aura la forme d’un Notebook Jupyter
 documenté.
 
+## SCHEMA
+
+https://whimsical.com/schema-data-W2NpAZLL37nk9TXU6faDwG
+
 ## HOW TO RUN 
 
 - change download/kaggle.json key for download images
